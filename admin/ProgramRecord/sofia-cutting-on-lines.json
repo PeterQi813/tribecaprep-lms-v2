@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Sofia Martinez",
+      "studentId": "TP-2024-0201",
+      "program": "Cutting on Lines",
+      "domain": "Fine Motor",
+      "domainKey": "motor",
+      "abllsCode": "FM6",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-08",
+      "dueDate": "2026-05-30",
+      "currentTarget": "Cut curved lines within 1/4 inch, 5 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 70,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Safety scissors",
+          "detail": "Left-handed"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Curved-line worksheets",
+          "detail": "Progressive"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747542046
+    }
+  }
+}

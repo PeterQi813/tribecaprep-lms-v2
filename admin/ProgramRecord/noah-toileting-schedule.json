@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Noah Brooks",
+      "studentId": "TPS-2026-0501",
+      "program": "Toileting Schedule",
+      "domain": "Self-Help",
+      "domainKey": "self-help",
+      "abllsCode": "S2",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-01",
+      "dueDate": "2026-06-30",
+      "currentTarget": "Successfully toilet on 2-hour schedule, <1 accident/day for 5 days",
+      "active": "Yes",
+      "notes": "Coordinating with home — parent keeps same 2-hr intervals",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Toileting data log",
+          "detail": "Hourly check-ins"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Reinforcer — stickers",
+          "detail": "Post-success"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747518693
+    }
+  }
+}

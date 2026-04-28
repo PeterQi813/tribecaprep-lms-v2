@@ -1,0 +1,203 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1776727198331
+    },
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": false,
+        "hasIEP": true,
+        "iepDate": "2025-11-05",
+        "iepSummary": "IEP for Down Syndrome + hearing loss. Goals: self-regulation (identify emotions), fine motor (cutting, drawing shapes), expressive language (3-word phrases). Services: OT 2x/week, Speech 3x/week, 1:1 aide full day.",
+        "accommodations": "1:1 aide, hearing aids checked at arrival, FM system in classroom, modified curriculum pacing, visual + tactile learning materials, extra time on all tasks"
+      },
+      "family": {
+        "primaryParent": {
+          "email": "tanya.shaw@email.com",
+          "phone": "212-555-0410",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "householdNotes": "Single-parent household. Mother works shifts — uncle and family friend alternate pickups. Prefers text for non-urgent communication.",
+        "secondaryParent": {
+          "email": "",
+          "phone": "",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Marcus Shaw",
+            "relationship": "Uncle",
+            "phone": "212-555-0422",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": null
+          },
+          {
+            "name": "Diana Reeves",
+            "relationship": "Family friend",
+            "phone": "212-555-0433",
+            "phoneAlt": null,
+            "priority": 2,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": null
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": "Sole custody with mother (Tanya Shaw). Father not involved.",
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Tanya Shaw",
+            "relationship": "Mother",
+            "phone": "212-555-0410",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Marcus Shaw",
+            "relationship": "Uncle",
+            "phone": "212-555-0422",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Diana Reeves",
+            "relationship": "Family friend",
+            "phone": "212-555-0433",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          }
+        ],
+        "restrictedPersons": [
+          {
+            "name": "Keith Shaw",
+            "relationship": "Father",
+            "description": "Not authorized for pickup or contact. No court order but parent has explicitly prohibited.",
+            "courtOrderOnFile": false,
+            "actionIfAppears": null
+          }
+        ],
+        "custodyArrangement": {
+          "value": null
+        }
+      },
+      "medical": {
+        "allergies": [],
+        "medications": [
+          {
+            "medicationName": null,
+            "dosage": "25mcg",
+            "frequency": "Once daily, AM (parent administers)",
+            "administeredAt": {
+              "value": null
+            },
+            "prescribingDoctor": null,
+            "startDate": null,
+            "endDate": null,
+            "sideEffects": null,
+            "notes": "Thyroid supplement, routine for Down Syndrome"
+          }
+        ],
+        "medicalNotes": "Bilateral hearing aids worn during school hours. Check hearing aids are on and working at morning arrival. Prone to ear infections — notify parent if pulling at ears.",
+        "primaryPhysician": {
+          "fax": null,
+          "name": "Dr. Rachel Brennan",
+          "email": "rbrennan@nychealthpartners.com",
+          "phone": "212-555-0156",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          }
+        },
+        "medicalConditions": "Down Syndrome, Mild Hearing Loss (bilateral)",
+        "dietaryRestrictions": "Soft foods preferred. Cut into small pieces to reduce choking risk."
+      },
+      "cardInfo": {
+        "notes": null,
+        "title": null,
+        "description": null,
+        "thumbnailURL": null
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Shaw",
+        "firstName": "Morgan",
+        "studentId": "TPS-2026-0633",
+        "gradeLevel": {
+          "value": null
+        },
+        "dateOfBirth": "2019-09-01",
+        "preferredName": "",
+        "enrollmentDate": "2025-09-02",
+        "withdrawalDate": null,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Morgan&backgroundColor=f0e0d0"
+      },
+      "financial": {
+        "billingNotes": "80% scholarship. Remaining 20% covered by monthly payment plan. Qualifies for free lunch program.",
+        "paymentStatus": {
+          "value": null
+        },
+        "financialAidStatus": {
+          "value": null
+        },
+        "scholarshipPercent": 80
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

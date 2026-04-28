@@ -1,0 +1,131 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "identity": {
+        "studentId": "TP-2022-0156",
+        "firstName": "Emma",
+        "lastName": "Chen",
+        "preferredName": "Emmy",
+        "dateOfBirth": "2016-03-15",
+        "gradeLevel": "3rd",
+        "enrollmentDate": "2021-09-01",
+        "withdrawalDate": null,
+        "active": true,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Emma&backgroundColor=f5e6d3"
+      },
+      "medical": {
+        "medicalConditions": "Asthma (exercise-induced). Uses inhaler as needed before PE.",
+        "allergies": [
+          {
+            "allergen": "Tree Nuts",
+            "severity": "life-threatening",
+            "reaction": "Anaphylaxis - throat swelling, difficulty breathing",
+            "treatment": "Administer EpiPen immediately, call 911",
+            "epiPenRequired": true,
+            "notes": "EpiPen kept in nurse's office and classroom emergency kit"
+          },
+          {
+            "allergen": "Bee Stings",
+            "severity": "moderate",
+            "reaction": "Localized swelling, hives",
+            "treatment": "Benadryl, ice pack, monitor for 30 minutes",
+            "epiPenRequired": false,
+            "notes": "Has happened once before at summer camp"
+          }
+        ],
+        "medications": [
+          {
+            "name": "Albuterol Inhaler",
+            "dosage": "2 puffs",
+            "frequency": "As needed before physical activity",
+            "location": "school",
+            "doctor": "Dr. Sarah Kim",
+            "notes": "Student can self-administer with supervision"
+          }
+        ],
+        "dietaryRestrictions": "**Nut-free diet required**\n\nNo tree nuts or products processed in facilities with tree nuts. Check all labels carefully. Safe alternatives: sunflower seed butter, soy products.",
+        "primaryPhysician": {
+          "fax": "(212) 555-0148",
+          "name": "Dr. Sarah Kim, MD",
+          "email": "s.kim@tribecapediatrics.com",
+          "phone": "(212) 555-0147"
+        },
+        "medicalNotes": "Annual physical due in March 2025. Immunizations up to date. Last asthma action plan review: September 2024."
+      },
+      "family": {
+        "primaryParent": {
+          "name": "Jennifer Chen",
+          "relationship": "mother",
+          "phone": "(212) 555-0101",
+          "email": "jennifer.chen@email.com",
+          "isEmergencyContact": true,
+          "canPickup": true
+        },
+        "secondaryParent": {
+          "name": "Michael Chen",
+          "relationship": "father",
+          "phone": "(646) 555-0203",
+          "email": "m.chen@techstartup.io",
+          "isEmergencyContact": false,
+          "canPickup": true
+        },
+        "emergencyContacts": [
+          {
+            "name": "Linda Chen",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0199",
+            "priority": 1,
+            "pickupAuthorized": true
+          },
+          {
+            "name": "Robert Chen",
+            "relationship": "Uncle",
+            "phone": "(917) 555-0345",
+            "priority": 2,
+            "pickupAuthorized": false
+          }
+        ],
+        "householdNotes": "Parents divorced 2022, amicable co-parenting. Student transitions well between homes."
+      },
+      "custody": {
+        "custodyArrangement": "Joint",
+        "custodyNotes": "Standard joint custody. Both parents have equal pickup rights. Week on/week off schedule.",
+        "authorizedPickups": [
+          {
+            "name": "Linda Chen",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0199"
+          },
+          {
+            "name": "Marcus Wong",
+            "relationship": "Family Friend",
+            "phone": "(917) 555-0234"
+          }
+        ],
+        "restrictedPersons": [],
+        "legalDocuments": null
+      },
+      "financial": {
+        "financialAidStatus": "partial",
+        "scholarshipPercent": 25,
+        "paymentStatus": "current",
+        "billingNotes": "Payment plan: 10 monthly installments. Auto-pay enrolled."
+      },
+      "iep": {
+        "hasIEP": true,
+        "iepDate": "2023-09-15",
+        "iepSummary": "**Learning Disability - Reading**\n\nEmma qualifies for special education services under SLD classification. Primary area of need: decoding and reading fluency.\n\n**Goals:**\n- Increase reading fluency from 65 to 90 words per minute\n- Improve decoding accuracy to 90%\n\n**Services:**\n- 30 min/day pull-out reading intervention\n- Wilson Reading System instruction 3x/week",
+        "has504": false,
+        "accommodations": "**Classroom Accommodations:**\n- Extended time (1.5x) on tests\n- Preferential seating near teacher\n- Audio versions of texts when available\n- Reduced homework load (quality over quantity)\n- Use of graphic organizers"
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student-full-profile",
+        "name": "StudentFullProfile"
+      },
+      "_touched": 1776727173959
+    }
+  }
+}

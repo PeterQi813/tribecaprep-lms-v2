@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776726363079
+    },
+    "type": "card",
+    "attributes": {
+      "score": "4/5",
+      "domain": "Receptive Language",
+      "content": "Receptive Language — ID Common Objects: Presented 5 objects (cup, shoe, ball, book, spoon) and asked Jamie to point to each. She got 4 out of 5 correct on the first try — hesitated on \"spoon\" but self-corrected after a brief pause. Great focus and eye contact throughout.",
+      "aiTagged": null,
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "timestamp": "2026-04-14T02:57:34.969Z",
+      "authorName": "",
+      "studentName": "Jamie Chen",
+      "activityDate": "2026-04-13",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/6a978023-7188-42a0-ba3e-97f732b3025a",
+      "suggestedGoal": "Receptive ID of Common Objects"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

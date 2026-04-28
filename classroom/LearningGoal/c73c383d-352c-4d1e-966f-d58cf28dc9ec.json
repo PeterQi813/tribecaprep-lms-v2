@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785487342
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-04-17",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Requesting with Full Sentences",
+      "description": "",
+      "startedDate": "2026-04-14",
+      "studentName": "Marcus Johnson",
+      "targetMastery": 100,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R F5"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fe21399a-e9f3-4db4-9ab0-ede8bfbd974f"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

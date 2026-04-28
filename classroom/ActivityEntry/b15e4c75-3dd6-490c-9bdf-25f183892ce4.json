@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784863799
+    },
+    "type": "card",
+    "attributes": {
+      "score": "5/5",
+      "domain": "Receptive Language",
+      "content": "jamie present all 5 common objects right!",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie correctly identified all 5 objects, aligning with the Receptive Language block and ABLLS-R C8 materials.",
+      "timestamp": "2026-04-14T20:57:08.937Z",
+      "confidence": 100,
+      "highlighted": null,
+      "activityDate": "2026-04-14",
+      "matchedBlock": "Receptive Language: Present 5 common objects (e.g., cup, shoe, ball, book, spoon) and ask Jamie to identify each by pointing. Use ABLLS-R C8 materials.",
+      "suggestedGoal": "Receptive ID of Common Objects"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/69d7b133-3257-41e6-9736-d7f77712defa"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

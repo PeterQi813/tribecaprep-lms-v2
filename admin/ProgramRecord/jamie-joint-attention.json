@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Jamie Chen",
+      "studentId": "TPS-2026-0847",
+      "program": "Joint Attention",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "C7",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-05",
+      "dueDate": "2026-05-20",
+      "currentTarget": "Shift gaze between novel object and adult 4/5 opportunities",
+      "active": "Yes",
+      "notes": "Plateau observed last 2 weeks — consider NET modification",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Novel toy bin",
+          "detail": "Rotated weekly"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747495153
+    }
+  }
+}

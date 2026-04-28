@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 10",
+      "notes": "He is not very good at communicating with others. He only communicates with 1/5 of children.",
+      "score": "1/5",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Social",
+      "linkedGoal": "Develop age-appropriate social communication skills",
+      "staffColor": "teal",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/0fd56bfe-dfc0-4e2c-87b6-5a2f7bf114ef",
+      "staffInitials": "DR"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

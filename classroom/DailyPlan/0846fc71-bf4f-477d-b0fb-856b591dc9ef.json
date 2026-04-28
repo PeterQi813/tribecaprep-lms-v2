@@ -1,0 +1,115 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "DailyPlan",
+        "module": "../daily-plan"
+      },
+      "_touched": 1776785014447
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "This is the first plan for Jamie, focusing on initial assessment and introduction to DI Math and Language for Learning. Prioritize establishing a routine and positive engagement.\n[Progression] This is the first plan, so there is no prior day to compare against. The plan introduces basic counting and language skills with a balance of structured and free-choice activities.",
+      "status": "draft",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "planDate": "2026-04-12",
+      "aiModelUsed": "google/gemini-2.0-flash-001",
+      "generatedAt": "2026-04-13T02:01:49.489Z",
+      "generatedBy": "ai",
+      "scheduleItems": [
+        {
+          "time": "8:45",
+          "activity": "Homeroom (morning arrival and settling)",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "9:00",
+          "activity": "DI Math: Count to 5 with objects using DI Connecting Math Concepts",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Count with 1:1 Correspondence"
+        },
+        {
+          "time": "9:45",
+          "activity": "Language for Learning: Lesson 1 using Language for Learning Curriculum",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Language For Learning"
+        },
+        {
+          "time": "10:30",
+          "activity": "sensory break (short movement or calming activity)",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "10:45",
+          "activity": "Free choice activity",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "11:30",
+          "activity": "Lunch + Recess",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "12:15",
+          "activity": "Science/Social Studies",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:00",
+          "activity": "Specials (Art/Music/PE)",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:45",
+          "activity": "Social skills / group work",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "2:30",
+          "activity": "Closing / reflection",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        }
+      ]
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

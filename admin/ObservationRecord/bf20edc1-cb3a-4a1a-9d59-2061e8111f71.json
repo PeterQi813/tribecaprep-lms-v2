@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 10",
+      "notes": "He is so nice at ART and get full grade!",
+      "score": "1/1",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Social",
+      "linkedGoal": "Complete all Art & Creative Expression projects",
+      "staffColor": "teal",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/7009b7dd-2201-4fd5-abfe-dfc03e2c47b6",
+      "staffInitials": "DR"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 13",
+      "notes": "Sorting Non-Identical Objects: Jamie sorted toys, utensils, and clothing into 3 bins for 10 minutes. She got 13 out of 15 correct — mixed up a spoon into the toys bin once, and hesitated on a sock. Stayed focused the full 10 minutes.",
+      "score": "13/15",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Academic",
+      "linkedGoal": "Sorting Non-Identical Objects (Math, current: 0%, target: 66%)",
+      "staffColor": "coral",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/a6a11d74-26ac-46ef-b909-266f6b0cabee",
+      "staffInitials": "JN"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

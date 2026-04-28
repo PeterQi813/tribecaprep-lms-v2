@@ -1,0 +1,196 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1776727182756
+    },
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": false,
+        "hasIEP": true,
+        "iepDate": "2026-01-15",
+        "iepSummary": "Annual IEP for ASD Level 2 support. Goals: 1:1 correspondence counting to 20, requesting help appropriately, following 2-step directions. Services: 30 min OT weekly, 30 min Speech weekly, 1:1 aide support during academics.",
+        "accommodations": "Extended time on assessments, sensory breaks every 60-90 min, visual schedule, preferential seating near teacher, noise-canceling headphones available"
+      },
+      "family": {
+        "primaryParent": {
+          "email": "lin.chen@email.com",
+          "phone": "212-555-0147",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "householdNotes": "Mandarin spoken at home. Parents both work in Tribeca, typically available within 20 minutes.",
+        "secondaryParent": {
+          "email": "david.chen@email.com",
+          "phone": "212-555-0148",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Wei Chen",
+            "relationship": "Aunt",
+            "phone": "212-555-0192",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": null
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": "Joint custody. Both parents authorized for all decisions and pickup.",
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Lin Chen",
+            "relationship": "Mother",
+            "phone": "212-555-0147",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "David Chen",
+            "relationship": "Father",
+            "phone": "212-555-0148",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Wei Chen",
+            "relationship": "Aunt",
+            "phone": "212-555-0192",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          }
+        ],
+        "restrictedPersons": [],
+        "custodyArrangement": {
+          "value": null
+        }
+      },
+      "medical": {
+        "allergies": [
+          {
+            "allergen": "Tree nuts",
+            "severity": {
+              "value": null
+            },
+            "reaction": "Anaphylaxis",
+            "treatment": "EpiPen Jr auto-injector, call 911 immediately",
+            "epiPenRequired": true,
+            "notes": "Keep EpiPen in nurse's office and classroom emergency kit"
+          }
+        ],
+        "medications": [
+          {
+            "medicationName": null,
+            "dosage": "10mg",
+            "frequency": "Once daily, AM (school administers)",
+            "administeredAt": {
+              "value": null
+            },
+            "prescribingDoctor": null,
+            "startDate": null,
+            "endDate": null,
+            "sideEffects": null,
+            "notes": "Monitor for appetite changes at lunch"
+          }
+        ],
+        "medicalNotes": "Sensory sensitivities to loud noises. May need noise-canceling headphones during fire drills.",
+        "primaryPhysician": {
+          "fax": null,
+          "name": "Dr. Sarah Kim",
+          "email": "skim@nypediatrics.com",
+          "phone": "212-555-0190",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          }
+        },
+        "medicalConditions": "Autism Spectrum Disorder (Level 2), ADHD - Combined Type",
+        "dietaryRestrictions": "No tree nuts, no peanuts (cross-contamination risk)"
+      },
+      "cardInfo": {
+        "notes": null,
+        "title": null,
+        "description": null,
+        "thumbnailURL": null
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Chen",
+        "firstName": "Jamie",
+        "studentId": "TPS-2026-0847",
+        "gradeLevel": {
+          "value": null
+        },
+        "dateOfBirth": "2019-03-15",
+        "preferredName": "Jamie",
+        "enrollmentDate": "2025-09-02",
+        "withdrawalDate": null,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Jamie&backgroundColor=f5e6d3"
+      },
+      "financial": {
+        "billingNotes": "Full tuition, auto-pay enrolled",
+        "paymentStatus": {
+          "value": null
+        },
+        "financialAidStatus": {
+          "value": null
+        },
+        "scholarshipPercent": 0
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

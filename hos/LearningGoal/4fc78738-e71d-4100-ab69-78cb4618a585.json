@@ -1,0 +1,38 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Academic",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": null,
+      "goalTitle": "Reading Comprehension — Short Passages",
+      "description": "Has enjoyed animal-themed passages — continue using Set C",
+      "studentName": "Emma Chen",
+      "targetMastery": 85,
+      "currentMastery": 0
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

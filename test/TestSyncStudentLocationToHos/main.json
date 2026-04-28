@@ -1,0 +1,12 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {},
+    "meta": {
+      "adoptsFrom": {
+        "module": "../test-sync-student-location-to-hos",
+        "name": "TestSyncStudentLocationToHos"
+      }
+    }
+  }
+}

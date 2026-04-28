@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784873993
+    },
+    "type": "card",
+    "attributes": {
+      "score": null,
+      "domain": "General",
+      "content": "he finished science class",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "The observation indicates completion of science class, aligning with the Science/Social Studies block.",
+      "timestamp": "2026-04-14T21:48:06.640Z",
+      "confidence": 90,
+      "highlighted": null,
+      "activityDate": "2026-04-14",
+      "matchedBlock": "Science/Social Studies",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

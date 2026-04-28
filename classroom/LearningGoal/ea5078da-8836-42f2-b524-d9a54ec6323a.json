@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785506632
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Visual Performance",
+      "dueDate": "2026-05-10",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Matching Colors",
+      "description": "",
+      "startedDate": "2026-04-01",
+      "studentName": "Riley Kim",
+      "targetMastery": 90,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B3"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/2db49ab0-ede8-4fbd-974f-7626debac4fe"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 14",
+      "notes": "he said I want play games and finished his social skills",
+      "score": "1/1",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Social",
+      "linkedGoal": "Requesting with Full Sentences",
+      "staffColor": "teal",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/25a1398a-0a17-4d4a-9acb-b72273dc2c5c",
+      "staffInitials": "DR"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

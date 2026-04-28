@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ProgramRecord",
+        "module": "../program-record"
+      },
+      "_touched": 1776747499027
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "",
+      "active": "Yes",
+      "domain": "Language",
+      "dueDate": "2026-06-15",
+      "program": "Language For Learning",
+      "started": "2026-04-12",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "abllsCode": "N/A",
+      "domainKey": "language",
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Language for Learning curriculum",
+          "detail": "Lessons 1-10"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Action picture cards",
+          "detail": ""
+        }
+      ],
+      "studentId": "",
+      "masterSheet": "Yes",
+      "studentName": "Jamie Chen",
+      "programSheet": "Yes",
+      "currentTarget": "Lesson 1-10",
+      "scheduledWeek": "",
+      "targetMastery": 80
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

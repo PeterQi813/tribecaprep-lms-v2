@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784841876
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/1",
+      "domain": "Reading",
+      "content": "he read all the pages of lesson one. Great job! He got a full grade in mastery reading lesson.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "The observation mentions 'mastery reading lesson' which matches the Reading Mastery Lesson 1 block, and indicates successful completion.",
+      "timestamp": "2026-04-10T20:54:26.956Z",
+      "confidence": 100,
+      "highlighted": null,
+      "activityDate": null,
+      "matchedBlock": "Reading Mastery Lesson 1",
+      "suggestedGoal": "Achieve Reading Mastery at 2nd grade level"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

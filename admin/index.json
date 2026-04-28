@@ -1,0 +1,53 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/jsss/admin-dashboard/index",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/jsss/admin-dashboard/",
+      "adoptsFrom": {
+        "name": "IndexCard",
+        "module": "https://cardstack.com/base/index"
+      },
+      "_touched": 1776747245367
+    },
+    "type": "card",
+    "attributes": {
+      "cardTitle": "Admin Dashboard",
+      "realmName": "Admin Dashboard"
+    },
+    "relationships": {
+      "cardsGrid": {
+        "links": {
+          "self": "./cards-grid"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/jsss/admin-dashboard/cards-grid"
+        }
+      }
+    },
+    "links": {
+      "self": "https://app.boxel.ai/jsss/admin-dashboard/index"
+    }
+  },
+  "included": [
+    {
+      "id": "https://app.boxel.ai/jsss/admin-dashboard/cards-grid",
+      "meta": {
+        "realmURL": "https://app.boxel.ai/jsss/admin-dashboard/",
+        "adoptsFrom": {
+          "name": "CardsGrid",
+          "module": "https://cardstack.com/base/cards-grid"
+        }
+      },
+      "type": "card",
+      "attributes": {
+        "cardTitle": "Admin Dashboard",
+        "realmName": "Admin Dashboard"
+      },
+      "relationships": {},
+      "links": {
+        "self": "./cards-grid"
+      }
+    }
+  ]
+}

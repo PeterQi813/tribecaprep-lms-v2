@@ -1,0 +1,35 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StaffMember",
+        "module": "../staff-member"
+      },
+      "_touched": 1776747582466
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Marco Reyes",
+      "role": "OT Specialist",
+      "email": "m.reyes@tribecaprep.org",
+      "status": "Active",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "initials": "MR",
+      "avatarColor": "purple",
+      "studentCount": 2,
+      "weeklyObservations": 36
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

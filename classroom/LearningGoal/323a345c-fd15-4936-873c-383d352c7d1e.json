@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785410336
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Visual Performance",
+      "dueDate": "2026-05-15",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Matching 3D to 2D",
+      "description": "",
+      "startedDate": "2026-04-02",
+      "studentName": "Jamie Chen",
+      "targetMastery": 85,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B5"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

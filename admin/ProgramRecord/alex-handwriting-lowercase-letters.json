@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Alex Park",
+      "studentId": "TPS-2026-0912",
+      "program": "Handwriting — Lowercase Letters",
+      "domain": "Academic",
+      "domainKey": "academic",
+      "abllsCode": "W3",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-10",
+      "dueDate": "2026-06-01",
+      "currentTarget": "Form lowercase a–m within two-line guide, legible on 70% of trials",
+      "active": "Yes",
+      "notes": "Fidget grip trialed 4/08 — continues; movement break every 10 min per 504",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "HWT double-line paper",
+          "detail": "Yellow/blue guide"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Weighted pencil + grip",
+          "detail": "Fine-motor support"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747461924
+    }
+  }
+}

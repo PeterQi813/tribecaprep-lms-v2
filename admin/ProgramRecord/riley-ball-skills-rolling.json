@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Riley Kim",
+      "studentId": "TPS-2026-0755",
+      "program": "Ball Skills — Rolling",
+      "domain": "Gross Motor",
+      "domainKey": "motor",
+      "abllsCode": "G4",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-05",
+      "dueDate": "2026-06-01",
+      "currentTarget": "Roll ball back to peer from seated position, 10 consecutive exchanges",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "10-inch textured ball",
+          "detail": "Easy grip"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747532861
+    }
+  }
+}

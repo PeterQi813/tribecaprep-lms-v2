@@ -1,0 +1,22 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-hos/cards-grid",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-hos/",
+      "adoptsFrom": {
+        "name": "CardsGrid",
+        "module": "https://cardstack.com/base/cards-grid"
+      },
+      "_touched": 1776726418933
+    },
+    "type": "card",
+    "attributes": {
+      "cardTitle": "HoS Dashboard",
+      "realmName": "HoS Dashboard"
+    },
+    "relationships": {},
+    "links": {
+      "self": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-hos/cards-grid"
+    }
+  }
+}

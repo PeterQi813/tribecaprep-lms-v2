@@ -1,0 +1,115 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "planDate": "2026-04-21",
+      "scheduleItems": [
+        {
+          "time": "8:45",
+          "activity": "Homeroom (morning arrival and settling)",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "9:00",
+          "activity": "DI Math: Count to 7 with objects using DI Connecting Math Concepts",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Count with 1:1 Correspondence"
+        },
+        {
+          "time": "9:45",
+          "activity": "Language For Learning: Lesson 3 using Language for Learning Curriculum",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Language For Learning"
+        },
+        {
+          "time": "10:30",
+          "activity": "sensory break (short movement or calming activity)",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "10:45",
+          "activity": "Following 2-Step Directions: Give Jamie two related directions (e.g., 'touch your shoulder, then sit down').",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Following 2-Step Directions"
+        },
+        {
+          "time": "11:30",
+          "activity": "Lunch + Recess",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "12:15",
+          "activity": "Science/Social Studies: Group circle time, continue topic of 'community helpers' with picture cards.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:00",
+          "activity": "Specials: PE class with Mr. Jones",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:45",
+          "activity": "DI Math: Continue Long Division practice with 3-digit numbers. Use manipulatives to represent the process. Use ABLLS-R C4 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "LONG DIVISION"
+        },
+        {
+          "time": "2:30",
+          "activity": "Closing / reflection",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        }
+      ],
+      "notes": "Today's plan focuses on continuing practice with Long Division and 2-step directions, while progressing to counting to 7 and Language for Learning Lesson 3.\n[Progression] This plan builds on the previous days by progressing the DI Math lesson and Language for Learning. It maintains the structure of academic blocks in the morning and specials in the afternoon.",
+      "status": "draft",
+      "generatedBy": "ai",
+      "generatedAt": "2026-04-21T05:57:31.709Z",
+      "aiModelUsed": "google/gemini-2.0-flash-001",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../daily-plan",
+        "name": "DailyPlan"
+      },
+      "_touched": 1776785039963
+    }
+  }
+}

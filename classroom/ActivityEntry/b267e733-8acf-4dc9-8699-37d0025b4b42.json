@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784865416
+    },
+    "type": "card",
+    "attributes": {
+      "score": "9/10",
+      "domain": "Language",
+      "content": "Jamie pointed to pictures when asked \"show me the ___\". She got 8/10 items right including chair, dog, and cup. Stayed focused for 12 minutes.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie demonstrated language skills by identifying pictures, and the observation includes a score.",
+      "timestamp": "2026-04-13T02:11:31.105Z",
+      "confidence": 90,
+      "activityDate": "2026-04-12",
+      "matchedBlock": "",
+      "suggestedGoal": "Language For Learning"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/6a90dfd2-69d7-4133-b257-51e69736d7f7"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

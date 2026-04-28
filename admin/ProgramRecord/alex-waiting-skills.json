@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Alex Park",
+      "studentId": "TPS-2026-0912",
+      "program": "Waiting Skills",
+      "domain": "Behavioral",
+      "domainKey": "behavioral",
+      "abllsCode": "B-W1",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-01",
+      "dueDate": "2026-05-20",
+      "currentTarget": "Tolerate wait up to 3 min for preferred item with visual timer",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Visual timer (Time Timer)",
+          "detail": "60-min dial"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Wait card",
+          "detail": "Velcro schedule"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747464365
+    }
+  }
+}

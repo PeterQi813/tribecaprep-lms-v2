@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Staff/mr-reyes",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "Staff",
+        "module": "../staff"
+      },
+      "_touched": 1776787739931
+    },
+    "type": "card",
+    "attributes": {
+      "name": "M. Reyes",
+      "role": "Assistant",
+      "initials": "MR",
+      "color": "purple",
+      "avatar": null,
+      "title": "M. Reyes"
+    },
+    "relationships": {}
+  }
+}

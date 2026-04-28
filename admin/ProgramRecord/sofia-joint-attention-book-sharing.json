@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Sofia Martinez",
+      "studentId": "TP-2024-0201",
+      "program": "Joint Attention — Book Sharing",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "C7",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-02",
+      "dueDate": "2026-05-25",
+      "currentTarget": "Point to pictures in shared book upon adult comment, 5/5 pages",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Board book collection",
+          "detail": "Rotating theme"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747544021
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StaffMember",
+        "module": "../staff-member"
+      },
+      "_touched": 1776747579026
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Jana Novak",
+      "role": "OT Specialist",
+      "email": "j.novak@tribecaprep.org",
+      "status": "Active",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "initials": "JN",
+      "avatarColor": "coral",
+      "studentCount": 8,
+      "weeklyObservations": 24
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

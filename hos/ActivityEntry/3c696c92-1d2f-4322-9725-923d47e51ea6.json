@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776726335519
+    },
+    "type": "card",
+    "attributes": {
+      "score": "",
+      "domain": "Behavioral",
+      "content": "Jamie chose the rocking chair and did 3 minutes of deep breathing with counting. She returned to her seat calmly and ready to continue with the next activity.",
+      "aiTagged": null,
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Behavioral",
+      "timestamp": "2026-04-14T02:57:04.346Z",
+      "authorName": "",
+      "studentName": "Jamie Chen",
+      "activityDate": "2026-04-13",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/38673ddc-3c6a-4780-a371-8862a0fa3e97",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

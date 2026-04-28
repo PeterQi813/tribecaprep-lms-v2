@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 21",
+      "notes": "he finished count with 1:1 correspondence and get score 20/20",
+      "score": "19/20",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Academic",
+      "linkedGoal": "Count with 1:1 Correspondence",
+      "staffColor": "teal",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/9ae259e7-815a-481b-a1a0-1d3c30e03508",
+      "staffInitials": "DR"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

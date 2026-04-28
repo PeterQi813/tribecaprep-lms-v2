@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 13",
+      "notes": "Jamie joined Ms. Smith's music class. She clapped along to 3 songs and took turns with the tambourine. Sang along to \"Wheels on the Bus\" and remembered most of the hand motions.",
+      "score": "1/1",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Social",
+      "linkedGoal": "",
+      "staffColor": "teal",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/b94d8f36-6550-4477-bba0-f1d83532a840",
+      "staffInitials": "DR"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

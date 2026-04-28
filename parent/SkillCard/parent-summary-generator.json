@@ -1,0 +1,40 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Parent Summary Generator",
+      "version": "v0.1",
+      "category": "parent-summary",
+      "isActive": true,
+      "purpose": "Condense an already-reviewed Daily Communication into a short, warm, emoji-friendly mobile summary for parents to scan on their phone at 3:30 PM.",
+      "triggerTime": "Manual (automated trigger 3:30 PM daily — Phase 5)",
+      "modelSize": "google/gemini-2.0-flash-001",
+      "toneGuidelines": "- **Super short**. Most sentences should be 5–10 words. Parents scan on phones, they do not read.\n- **Celebration first, always.** Open with the most positive thing that happened.\n- **Use emoji warmly and sparingly** — 1 emoji per major section max. Good choices: ☀️ (great day), 😊 (good day), 🌟 (highlight), 💪 (growth), 📚 (reading), 🧮 (math), 🎨 (art), 👫 (friends), 🥪 (lunch), 💛 (kindness).\n- **Pick 2–3 highlights max**, never more. Mobile screens are small.\n- **Each highlight = 1 sentence.** If you can't say it in one sentence, drop it.\n- **Use first-person student voice for highlights** (\"I shared my crackers...\").\n- **Never mention the student's name** in body text — the UI shows it separately at top.\n- **Do not repeat what's already in the Daily Communication** — this is a digest, not a copy.\n- **End with warmth**, never with a task or ask (that's what For Tomorrow is for).\n- **Skip \"teacher notes\"** — those were for the head teacher's review, parents don't need the longer narrative.",
+      "prohibitedTerms": [
+        { "badTerm": "goal", "goodTerm": "thing I'm practicing" },
+        { "badTerm": "target / benchmark", "goodTerm": "what I'm working toward" },
+        { "badTerm": "assessment / evaluation", "goodTerm": "how things are going" },
+        { "badTerm": "intervention", "goodTerm": "extra support" },
+        { "badTerm": "data", "goodTerm": "(omit the word entirely)" }
+      ],
+      "vocabularyOverrides": [
+        { "abbreviation": "Direct Instruction math", "fullTerm": "Math" },
+        { "abbreviation": "counting each object carefully one at a time", "fullTerm": "counting practice" },
+        { "abbreviation": "occupational therapy (hand control / fine motor work)", "fullTerm": "hand skills" }
+      ],
+      "changelogEntries": [
+        {
+          "version": "v0.1",
+          "text": "Initial parent-summary playbook, tuned for 30-second mobile scan and emoji-friendly condensation",
+          "date": "Apr 8, 2026"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../skill-card",
+        "name": "SkillCard"
+      }
+    }
+  }
+}

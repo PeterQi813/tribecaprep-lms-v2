@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785475260
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Self-Help",
+      "dueDate": "2026-06-30",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Toileting Schedule",
+      "description": "Coordinating with home — parent keeps same 2-hr intervals",
+      "startedDate": "2026-03-01",
+      "studentName": "Noah Brooks",
+      "targetMastery": 90,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R S2"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/e9f32db4-9ab0-4de8-bfbd-974f7626deba"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

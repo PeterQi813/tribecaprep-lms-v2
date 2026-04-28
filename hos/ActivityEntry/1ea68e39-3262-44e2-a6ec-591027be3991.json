@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776726325606
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/1",
+      "domain": "Social",
+      "content": "Jamie packed her backpack independently, zipped it up, and pushed her chair in. Said \"bye Ms. Rivers\" and waved to 2 classmates on her way out the door.",
+      "aiTagged": null,
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Social",
+      "timestamp": "2026-04-14T02:58:54.446Z",
+      "authorName": "",
+      "studentName": "Jamie Chen",
+      "activityDate": "2026-04-13",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/f733c173-4061-47e4-9795-5f68e107ce4e",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

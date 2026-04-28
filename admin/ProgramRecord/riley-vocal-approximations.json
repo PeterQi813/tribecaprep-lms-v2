@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Riley Kim",
+      "studentId": "TPS-2026-0755",
+      "program": "Vocal Approximations",
+      "domain": "Vocal",
+      "domainKey": "language",
+      "abllsCode": "EC2",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-20",
+      "dueDate": "2026-05-30",
+      "currentTarget": "Produce vocal approximations for 15 high-preference items",
+      "active": "Yes",
+      "notes": "SLP trialing vibrotactile cue — positive response",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "High-preference item photos",
+          "detail": "20-card deck"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747540178
+    }
+  }
+}

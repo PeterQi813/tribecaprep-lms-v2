@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784810840
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/1",
+      "domain": "Social",
+      "content": "Jamie played a greeting game in the circle. She waved and said \"hi\" to 5 classmates. She made eye contact with 3 of them. She did a good job in social skills.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Social",
+      "reasoning": "Jamie participated in a greeting game, demonstrating social skills by waving, saying hi, and making eye contact with classmates during the social skills block.",
+      "timestamp": "2026-04-13T02:16:33.688Z",
+      "confidence": 95,
+      "highlighted": null,
+      "activityDate": "2026-04-12",
+      "matchedBlock": "Social skills / group work",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

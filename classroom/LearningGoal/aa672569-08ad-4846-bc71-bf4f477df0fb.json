@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785473711
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Math",
+      "dueDate": "2026-06-15",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Count with 1:1 Correspondence",
+      "description": "",
+      "startedDate": "2026-04-12",
+      "studentName": "Jamie Chen",
+      "targetMastery": 80,
+      "currentMastery": 88,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R R3"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

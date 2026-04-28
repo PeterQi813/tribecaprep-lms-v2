@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784870493
+    },
+    "type": "card",
+    "attributes": {
+      "score": "5/15",
+      "domain": "Motor",
+      "content": "he is not pretty well in PE class today. Only exercise 5 min and leave. 5/15 grade",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Behavioral",
+      "reasoning": "Jamie only participated in PE for 5 minutes, which is less than the expected duration.",
+      "timestamp": "2026-04-10T20:56:13.188Z",
+      "confidence": 100,
+      "highlighted": null,
+      "activityDate": null,
+      "matchedBlock": "PE",
+      "suggestedGoal": "Participate in all PE activities this semester"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

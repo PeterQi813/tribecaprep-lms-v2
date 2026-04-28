@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Behavioral",
+      "linkedGoal": "",
+      "score": "1/1",
+      "staffInitials": "??",
+      "staffColor": "teal",
+      "flagged": "false",
+      "notes": "Jamie walked in, put her backpack away, and sat at her desk. She looked at the morning board without being reminded.",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747339041
+    }
+  }
+}

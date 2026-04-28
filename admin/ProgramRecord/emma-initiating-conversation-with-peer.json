@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Emma Chen",
+      "studentId": "TP-2022-0156",
+      "program": "Initiating Conversation with Peer",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "C12",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-01",
+      "dueDate": "2026-06-10",
+      "currentTarget": "Initiate 2 greetings + 1 question to peer during free play, daily",
+      "active": "Yes",
+      "notes": "Pair with Riley during snack — rapport established",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Conversation starter cards",
+          "detail": "10-card peer set"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Token board",
+          "detail": "5-star fade"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747485026
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Emma Chen",
+      "studentId": "TP-2022-0156",
+      "program": "Morning Routine",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "N/A",
+      "masterSheet": "Yes",
+      "programSheet": "No",
+      "started": "2026-04-14",
+      "currentTarget": "Hang backpack, sit in seat, wait for circle",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": null,
+      "dueDate": "2026-06-15",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Morning routine visual schedule",
+          "detail": "Laminated strip"
+        }
+      ],
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747452720
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784843590
+    },
+    "type": "card",
+    "attributes": {
+      "score": "4/5",
+      "domain": "Receptive Language",
+      "content": "Receptive Language — ID Common Objects: Presented 5 objects (cup, shoe, ball, book, spoon) and asked Jamie to point to each. She got 4 out of 5 correct on the first try — hesitated on \"spoon\" but self-corrected after a brief pause. Great focus and eye contact throughout.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie correctly identified 4 out of 5 objects during the receptive language task, demonstrating good focus and eye contact.",
+      "timestamp": "2026-04-14T02:57:34.969Z",
+      "confidence": 100,
+      "highlighted": "true",
+      "activityDate": "2026-04-13",
+      "matchedBlock": "Receptive Language: Present 5 common objects (e.g., cup, shoe, ball, book, spoon) and ask Jamie to identify each by pointing. Use ABLLS-R C8 materials.",
+      "suggestedGoal": "Receptive ID of Common Objects"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/69d7b133-3257-41e6-9736-d7f77712defa"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

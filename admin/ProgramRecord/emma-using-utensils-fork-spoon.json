@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Emma Chen",
+      "studentId": "TP-2022-0156",
+      "program": "Using Utensils — Fork & Spoon",
+      "domain": "Self-Help",
+      "domainKey": "self-help",
+      "abllsCode": "S4",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-20",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Use fork independently for solid foods, minimal spillage, 5/5 meals",
+      "active": "No",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Adaptive utensil set",
+          "detail": "Built-up grip"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747490524
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Riley Kim",
+      "studentId": "TPS-2026-0755",
+      "program": "Matching Colors",
+      "domain": "Visual Performance",
+      "domainKey": "visual",
+      "abllsCode": "B3",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-01",
+      "dueDate": "2026-05-10",
+      "currentTarget": "Match 6 primary/secondary colors, field of 3, 9/10 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Color matching mat",
+          "detail": "6-color"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747535764
+    }
+  }
+}

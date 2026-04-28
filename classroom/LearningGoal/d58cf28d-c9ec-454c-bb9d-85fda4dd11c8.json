@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785493670
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-05-30",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Turn-Taking with Peers",
+      "description": "",
+      "startedDate": "2026-03-22",
+      "studentName": "Marcus Johnson",
+      "targetMastery": 80,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R C9"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fe21399a-e9f3-4db4-9ab0-ede8bfbd974f"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

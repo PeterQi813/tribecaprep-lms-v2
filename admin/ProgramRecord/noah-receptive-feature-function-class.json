@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Noah Brooks",
+      "studentId": "TPS-2026-0501",
+      "program": "Receptive Feature-Function-Class",
+      "domain": "Language",
+      "domainKey": "language",
+      "abllsCode": "C11",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-15",
+      "dueDate": "2026-05-30",
+      "currentTarget": "Select item by feature, function, or class cue in field of 4, 8/10 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "FFC card deck",
+          "detail": "Mixed category"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747517332
+    }
+  }
+}

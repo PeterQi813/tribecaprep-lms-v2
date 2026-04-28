@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Emma Chen",
+      "studentId": "TP-2022-0156",
+      "program": "Intraverbal Fill-ins",
+      "domain": "Language",
+      "domainKey": "language",
+      "abllsCode": "H4",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-15",
+      "dueDate": "2026-05-30",
+      "currentTarget": "Complete 25 fill-in phrases (songs, social routines) with 90% independence",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Intraverbal phrase list v2",
+          "detail": "30 item pool"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747486204
+    }
+  }
+}

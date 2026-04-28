@@ -1,0 +1,182 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1776727213453
+    },
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": false,
+        "hasIEP": true,
+        "iepDate": "2025-12-10",
+        "iepSummary": "IEP for ASD Level 1 + Anxiety. Goals: reading fluency (3rd grade level), social reciprocity in peer conversations, self-regulation during transitions. Services: 30 min Speech weekly (pragmatic language), counseling 1x/week.",
+        "accommodations": "Visual schedule, 2-min transition warnings, access to calm-down corner, social stories before new activities, reduced homework load on high-anxiety days"
+      },
+      "family": {
+        "primaryParent": {
+          "email": "grace.kim@email.com",
+          "phone": "212-555-0301",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "householdNotes": "English primary language. Family very involved, attends all IEP meetings.",
+        "secondaryParent": {
+          "email": "daniel.kim@email.com",
+          "phone": "212-555-0302",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Amy Kim",
+            "relationship": "Aunt",
+            "phone": "212-555-0345",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": null
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": "Both parents authorized for all decisions.",
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Grace Kim",
+            "relationship": "Mother",
+            "phone": "212-555-0301",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Daniel Kim",
+            "relationship": "Father",
+            "phone": "212-555-0302",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Amy Kim",
+            "relationship": "Aunt",
+            "phone": "212-555-0345",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          }
+        ],
+        "restrictedPersons": [],
+        "custodyArrangement": {
+          "value": null
+        }
+      },
+      "medical": {
+        "allergies": [
+          {
+            "allergen": "Dairy",
+            "severity": {
+              "value": null
+            },
+            "reaction": "GI distress, skin rash",
+            "treatment": "Benadryl for skin reaction, avoid dairy products",
+            "epiPenRequired": false,
+            "notes": "Lactose-free alternatives provided for snack and lunch"
+          }
+        ],
+        "medications": [],
+        "medicalNotes": "High anxiety around transitions. Needs 2-minute warnings before activity changes. Benefits from calm-down corner access.",
+        "primaryPhysician": {
+          "fax": null,
+          "name": "Dr. Angela Wu",
+          "email": "awu@tribecapediatrics.com",
+          "phone": "212-555-0178",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          }
+        },
+        "medicalConditions": "Autism Spectrum Disorder (Level 1), Anxiety Disorder",
+        "dietaryRestrictions": "Dairy-free. Packed lunch from home daily."
+      },
+      "cardInfo": {
+        "notes": null,
+        "title": null,
+        "description": null,
+        "thumbnailURL": null
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Kim",
+        "firstName": "Riley",
+        "studentId": "TPS-2026-0755",
+        "gradeLevel": {
+          "value": null
+        },
+        "dateOfBirth": "2017-11-08",
+        "preferredName": "",
+        "enrollmentDate": "2024-09-03",
+        "withdrawalDate": null,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Riley&backgroundColor=d4e8f0"
+      },
+      "financial": {
+        "billingNotes": "Full tuition, quarterly payment",
+        "paymentStatus": {
+          "value": null
+        },
+        "financialAidStatus": {
+          "value": null
+        },
+        "scholarshipPercent": 0
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

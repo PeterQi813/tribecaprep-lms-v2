@@ -1,0 +1,36 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ObservationRecord",
+        "module": "../observation-record"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "date": "Apr 15",
+      "notes": "Ran 10 trials of 2-step directions with Jamie. Got 8/10 correct on related pairs (\"get your backpack then sit down\"). Missed 2 where second step involved a novel verb (\"bring\"). Used visual first-then card on trials 7-10.",
+      "score": "8/10",
+      "flagged": "false",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "category": "Academic",
+      "linkedGoal": "Following 2-Step Directions",
+      "staffColor": "teal",
+      "studentName": "Jamie Chen",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/2eb23124-1cea-46fc-b06f-7a530cd3b6c9",
+      "staffInitials": "DR"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

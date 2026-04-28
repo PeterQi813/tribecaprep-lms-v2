@@ -1,0 +1,54 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-04-14T20:53:11.840Z",
+      "content": "he finished art class",
+      "entryType": "General",
+      "score": "",
+      "aiTagged": null,
+      "flagNote": null,
+      "domain": "General",
+      "suggestedGoal": "",
+      "activityDate": "2026-04-14",
+      "studentName": "Jamie Chen",
+      "authorName": "",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/a12fb129-8c0a-4b71-b9fc-9d3cfe071381",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../activity-entry",
+        "name": "ActivityEntry"
+      },
+      "_touched": 1776726341979
+    }
+  }
+}

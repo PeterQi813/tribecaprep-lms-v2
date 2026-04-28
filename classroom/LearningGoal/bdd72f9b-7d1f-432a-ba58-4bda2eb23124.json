@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785482085
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Visual Performance",
+      "dueDate": "2026-05-10",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Puzzle Completion — 24 Piece",
+      "description": "",
+      "startedDate": "2026-03-28",
+      "studentName": "Morgan Shaw",
+      "targetMastery": 85,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B10"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/399ae9f3-2db4-4ab0-ade8-bfbd974f7626"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

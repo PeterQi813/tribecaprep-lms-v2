@@ -1,0 +1,49 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Marcus Johnson",
+      "studentId": "TP-2023-0089",
+      "program": "Receptive ID of Common Objects",
+      "domain": "Receptive Language",
+      "domainKey": "receptive",
+      "abllsCode": "C8",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-13",
+      "currentTarget": "",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": null,
+      "dueDate": "2026-05-13",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "language book",
+          "detail": "lesson1-10"
+        }
+      ],
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747445170
+    }
+  }
+}

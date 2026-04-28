@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785435520
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Behavioral",
+      "dueDate": "2026-06-15",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Functional Communication Training",
+      "description": "BIP active — data to BCBA weekly",
+      "startedDate": "2026-03-25",
+      "studentName": "Noah Brooks",
+      "targetMastery": 80,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R FCT"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/e9f32db4-9ab0-4de8-bfbd-974f7626deba"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

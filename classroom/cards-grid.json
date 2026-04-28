@@ -1,0 +1,22 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/cards-grid",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "CardsGrid",
+        "module": "https://cardstack.com/base/cards-grid"
+      },
+      "_touched": 1776784890223
+    },
+    "type": "card",
+    "attributes": {
+      "cardTitle": "Classroom Dashboard",
+      "realmName": "Classroom Dashboard"
+    },
+    "relationships": {},
+    "links": {
+      "self": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/cards-grid"
+    }
+  }
+}

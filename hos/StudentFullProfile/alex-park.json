@@ -1,0 +1,185 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1776727152970
+    },
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": true,
+        "hasIEP": false,
+        "iepDate": "2025-10-20",
+        "iepSummary": "504 Plan for ADHD accommodations. No specialized instruction required.",
+        "accommodations": "Preferential seating, extended time (1.5x) on tests, check-ins every 15 min during independent work, movement breaks between subjects, fidget tools permitted"
+      },
+      "family": {
+        "primaryParent": {
+          "email": "jen.park@email.com",
+          "phone": "212-555-0234",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "householdNotes": "Korean spoken at home. Grandmother does afternoon pickup most days.",
+        "secondaryParent": {
+          "email": "rob.park@email.com",
+          "phone": "212-555-0235",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Soo-jin Park",
+            "relationship": "Grandmother",
+            "phone": "212-555-0267",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": null
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": "Both parents authorized. Grandmother (Soo-jin) authorized for daily pickup.",
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Jennifer Park",
+            "relationship": "Mother",
+            "phone": "212-555-0234",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Robert Park",
+            "relationship": "Father",
+            "phone": "212-555-0235",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Soo-jin Park",
+            "relationship": "Grandmother",
+            "phone": "212-555-0267",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          }
+        ],
+        "restrictedPersons": [],
+        "custodyArrangement": {
+          "value": null
+        }
+      },
+      "medical": {
+        "allergies": [],
+        "medications": [
+          {
+            "medicationName": null,
+            "dosage": "5mg",
+            "frequency": "Once daily, AM (parent administers before school)",
+            "administeredAt": {
+              "value": null
+            },
+            "prescribingDoctor": null,
+            "startDate": null,
+            "endDate": null,
+            "sideEffects": null,
+            "notes": "Parent confirms medication taken each morning via app"
+          }
+        ],
+        "medicalNotes": "Difficulty with sustained attention during long academic blocks. Benefits from movement breaks and fidget tools.",
+        "primaryPhysician": {
+          "fax": null,
+          "name": "Dr. Michael Torres",
+          "email": "mtorres@childmind.org",
+          "phone": "212-555-0211",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          }
+        },
+        "medicalConditions": "ADHD - Inattentive Type",
+        "dietaryRestrictions": ""
+      },
+      "cardInfo": {
+        "notes": null,
+        "title": null,
+        "description": null,
+        "thumbnailURL": null
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Park",
+        "firstName": "Alex",
+        "studentId": "TPS-2026-0912",
+        "gradeLevel": {
+          "value": null
+        },
+        "dateOfBirth": "2018-07-22",
+        "preferredName": "Alex",
+        "enrollmentDate": "2025-09-02",
+        "withdrawalDate": null,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Alex&backgroundColor=e8d4c4"
+      },
+      "financial": {
+        "billingNotes": "25% need-based scholarship. Monthly payment plan.",
+        "paymentStatus": {
+          "value": null
+        },
+        "financialAidStatus": {
+          "value": null
+        },
+        "scholarshipPercent": 25
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "DailyPlan",
+        "module": "../daily-plan"
+      },
+      "_touched": 1776785044794
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "This is the first plan for Jamie, focusing on introducing activities across all learning goals. The plan includes a balance of academic, creative, motor, and social activities, with a sensory break to support regulation.\n[Progression] As this is the first plan, it establishes a baseline schedule and introduces initial activities for each learning goal. Future plans will build upon this foundation based on Jamie's progress and teacher feedback.",
+      "status": "draft",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "planDate": "2026-04-10",
+      "aiModelUsed": "google/gemini-2.0-flash-001",
+      "generatedAt": "2026-04-10T20:38:11.484Z",
+      "generatedBy": "ai",
+      "scheduleItems": [
+        {
+          "time": "8:45",
+          "activity": "Homeroom (morning arrival and settling)",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "9:00",
+          "activity": "Direct Instruction (structured academic block) Math Lesson 1",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Complete all Grade 2 Mathematics curriculum"
+        },
+        {
+          "time": "9:45",
+          "activity": "Reading Mastery Lesson 1",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Achieve Reading Mastery at 2nd grade level"
+        },
+        {
+          "time": "10:30",
+          "activity": "sensory break (short movement or calming activity) / snack",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "10:45",
+          "activity": "Art & Creative Expression Project 1",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Complete all Art & Creative Expression projects"
+        },
+        {
+          "time": "11:30",
+          "activity": "Lunch + Recess",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "12:15",
+          "activity": "Science / Social Studies",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:00",
+          "activity": "PE",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Participate in all PE activities this semester"
+        },
+        {
+          "time": "1:45",
+          "activity": "Social Communication Skills Activity 1",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Develop age-appropriate social communication skills"
+        },
+        {
+          "time": "2:30",
+          "activity": "Closing / reflection",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        }
+      ]
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

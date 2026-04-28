@@ -1,0 +1,32 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Dana Rivers",
+      "role": null,
+      "initials": "DR",
+      "color": "teal",
+      "avatar": null,
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../staff",
+        "name": "Staff"
+      },
+      "_touched": 1776785951605
+    }
+  }
+}

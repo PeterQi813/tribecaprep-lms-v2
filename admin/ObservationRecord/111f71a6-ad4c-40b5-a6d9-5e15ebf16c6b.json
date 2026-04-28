@@ -1,0 +1,37 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 10",
+      "studentName": "Jamie Chen",
+      "category": "General",
+      "linkedGoal": "",
+      "score": "—",
+      "staffInitials": "MR",
+      "staffColor": "purple",
+      "flagged": "false",
+      "notes": "Jamie arrived in time!",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/afeccb88-7794-4781-b3f1-23ba5d13c744",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747306831
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Marcus Johnson",
+      "studentId": "TP-2023-0089",
+      "program": "Pattern Sequencing",
+      "domain": "Visual Performance",
+      "domainKey": "visual",
+      "abllsCode": "B14",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-01",
+      "dueDate": "2026-05-25",
+      "currentTarget": "Extend AB and ABC patterns with colored blocks, 8/10 trials",
+      "active": "Yes",
+      "notes": "Strong with AB — start ABC 4/20",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Unifix cubes",
+          "detail": "4-color set"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747502984
+    }
+  }
+}

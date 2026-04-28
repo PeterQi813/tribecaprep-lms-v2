@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Sofia Martinez",
+      "studentId": "TP-2024-0201",
+      "program": "Tact Common Objects",
+      "domain": "Language",
+      "domainKey": "language",
+      "abllsCode": "C5",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-22",
+      "dueDate": "2026-05-20",
+      "currentTarget": "Label 25 common classroom objects with 90% accuracy",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Classroom object flashcards",
+          "detail": "Set B — school items"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747546351
+    }
+  }
+}

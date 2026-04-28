@@ -1,0 +1,38 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Behavioral",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": null,
+      "goalTitle": "Tolerate Denied Access",
+      "description": "BCBA consult scheduled 4/29 for BIP review",
+      "studentName": "Morgan Shaw",
+      "targetMastery": 75,
+      "currentMastery": 0
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ProgramRecord",
+        "module": "../program-record"
+      },
+      "_touched": 1776747455634
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "",
+      "active": "Yes",
+      "domain": "Math",
+      "dueDate": "2026-06-14",
+      "program": "Sorting Non-Identical Objects",
+      "started": "2026-04-13",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "abllsCode": "B12",
+      "domainKey": "math",
+      "materials": [],
+      "studentId": "TPS-2026-0847",
+      "masterSheet": "Yes",
+      "studentName": "Jamie Chen",
+      "programSheet": "Yes",
+      "currentTarget": "Sort 3 categories of non-identical objects with 66% accuracy",
+      "scheduledWeek": null,
+      "targetMastery": 66
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

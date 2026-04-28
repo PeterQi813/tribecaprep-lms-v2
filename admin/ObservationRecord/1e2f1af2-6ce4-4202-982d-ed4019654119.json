@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Academic",
+      "linkedGoal": "",
+      "score": "—",
+      "staffInitials": "??",
+      "staffColor": "teal",
+      "flagged": "false",
+      "notes": "Jamie looked at pictures of weather and pointed to the sunny one. She said \"sun\" when asked what the weather is today in science class.",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747310969
+    }
+  }
+}

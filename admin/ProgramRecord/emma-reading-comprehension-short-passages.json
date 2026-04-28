@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Emma Chen",
+      "studentId": "TP-2022-0156",
+      "program": "Reading Comprehension — Short Passages",
+      "domain": "Academic",
+      "domainKey": "academic",
+      "abllsCode": "R12",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-05",
+      "dueDate": "2026-06-15",
+      "currentTarget": "Answer 4 wh-questions on 3-sentence passage with 80% accuracy",
+      "active": "Yes",
+      "notes": "Has enjoyed animal-themed passages — continue using Set C",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Reading A–Z Level D passages",
+          "detail": "Set C animals"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Wh-question prompt cards",
+          "detail": "Who/what/where/when"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747489179
+    }
+  }
+}

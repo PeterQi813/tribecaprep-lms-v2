@@ -1,0 +1,104 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentSlug": "0178fe21-399a-49f3-adb4-9ab0ede8bfbd",
+      "studentName": "Jamie Chen",
+      "studentGrade": null,
+      "summaryDate": "2026-04-12",
+      "sourceDailyCommunicationId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-parent/DailyCommunication/4f549819-d6e7-47df-b7ed-1d9e9eef2f07",
+      "sourceSkillCardId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-parent/SkillCard/parent-summary-generator",
+      "generatedAt": "2026-04-13T02:59:53.950Z",
+      "generatedBy": "google/gemini-2.0-flash-001",
+      "greeting": "Super day! ☀️",
+      "moodEmoji": "☀️",
+      "todaysHighlights": [
+        {
+          "type": "Academic",
+          "title": "Math Milestone!",
+          "description": "I did counting practice with blocks and got 4 out of 5!"
+        },
+        {
+          "type": "Social",
+          "title": "Greeting Game",
+          "description": "I waved and said hi to lots of classmates today!"
+        },
+        {
+          "type": "Social",
+          "title": "Lunch Win",
+          "description": "I asked for a napkin using my words at lunch. 💛"
+        }
+      ],
+      "whatWeDid": [
+        {
+          "time": "",
+          "activity": "Homeroom",
+          "status": "",
+          "score": ""
+        },
+        {
+          "time": "",
+          "activity": "Math",
+          "status": "",
+          "score": "4/5"
+        },
+        {
+          "time": "",
+          "activity": "Language",
+          "status": "",
+          "score": "8/10"
+        },
+        {
+          "time": "",
+          "activity": "Social Skills",
+          "status": "✓",
+          "score": ""
+        },
+        {
+          "time": "",
+          "activity": "Social Skills",
+          "status": "✓",
+          "score": ""
+        },
+        {
+          "time": "",
+          "activity": "Lunch + Recess",
+          "status": "",
+          "score": ""
+        },
+        {
+          "time": "",
+          "activity": "Pack Bag",
+          "status": "✓",
+          "score": ""
+        }
+      ],
+      "forTomorrow": [],
+      "photoUrl": "",
+      "photoCaption": "",
+      "status": "draft",
+      "quickReply": "",
+      "sentAt": null,
+      "sentToName": "Ms. Green",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../parent-daily-summary",
+        "name": "ParentDailySummary"
+      }
+    }
+  }
+}

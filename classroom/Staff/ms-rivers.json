@@ -1,0 +1,23 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Staff/ms-rivers",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "Staff",
+        "module": "../staff"
+      },
+      "_touched": 1776787772876
+    },
+    "type": "card",
+    "attributes": {
+      "name": "Ms. Rivers",
+      "role": "Aide",
+      "initials": "RM",
+      "color": "teal",
+      "avatar": null,
+      "title": "Ms. Rivers"
+    },
+    "relationships": {}
+  }
+}

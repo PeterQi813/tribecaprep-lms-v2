@@ -1,0 +1,118 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "identity": {
+        "studentId": "TP-2023-0089",
+        "firstName": "Marcus",
+        "lastName": "Johnson",
+        "preferredName": null,
+        "dateOfBirth": "2014-11-22",
+        "gradeLevel": "5th",
+        "enrollmentDate": "2020-09-01",
+        "withdrawalDate": null,
+        "active": true,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Marcus&backgroundColor=d4c4b4"
+      },
+      "medical": {
+        "medicalConditions": "Type 1 Diabetes - diagnosed 2021. Uses insulin pump (Omnipod). Blood glucose monitoring required before lunch and snacks.",
+        "allergies": [],
+        "medications": [
+          {
+            "name": "Insulin (via Omnipod pump)",
+            "dosage": "As programmed by endocrinologist",
+            "frequency": "Continuous delivery + bolus at meals",
+            "location": "both",
+            "doctor": "Dr. Rebecca Torres",
+            "notes": "Nurse must be notified of any pump alarms. Emergency glucagon kit in health office."
+          },
+          {
+            "name": "Glucagon Emergency Kit",
+            "dosage": "1mg injection",
+            "frequency": "Emergency use only - severe hypoglycemia",
+            "location": "school",
+            "doctor": "Dr. Rebecca Torres",
+            "notes": "Only trained staff should administer. Call 911 after use."
+          }
+        ],
+        "dietaryRestrictions": "**Diabetes Management**\n\nCarbohydrate counting required for all meals and snacks. No restrictions on food types, but portions must be reported to nurse for insulin dosing.\n\nAlways have fast-acting sugar available (juice box in desk).",
+        "primaryPhysician": {
+          "fax": "(212) 555-0301",
+          "name": "Dr. Rebecca Torres, Endocrinology",
+          "email": "rtorres@nypediatricendo.com",
+          "phone": "(212) 555-0300"
+        },
+        "medicalNotes": "**Diabetes Care Plan on file - updated September 2024**\n\nTarget blood glucose: 80-180 mg/dL\n\nLow protocol: <80 = 15g fast carbs, recheck in 15 min\nHigh protocol: >300 = notify nurse, check ketones\n\nParent should be called if BG >350 or <60, or if ketones present."
+      },
+      "family": {
+        "primaryParent": {
+          "name": "Patricia Johnson",
+          "relationship": "mother",
+          "phone": "(917) 555-0777",
+          "email": "pjohnson@nyhealth.org",
+          "isEmergencyContact": true,
+          "canPickup": true
+        },
+        "secondaryParent": null,
+        "emergencyContacts": [
+          {
+            "name": "Gloria Johnson",
+            "relationship": "Grandmother",
+            "phone": "(718) 555-0456",
+            "priority": 1,
+            "pickupAuthorized": true
+          },
+          {
+            "name": "Angela Williams",
+            "relationship": "Aunt",
+            "phone": "(646) 555-0999",
+            "priority": 2,
+            "pickupAuthorized": false
+          }
+        ],
+        "householdNotes": "Single-parent household. Mother works rotating shifts at hospital. Grandmother provides significant support. Family has been through difficult custody situation - student has shown resilience but may need extra emotional support."
+      },
+      "custody": {
+        "custodyArrangement": "Sole-mother",
+        "custodyNotes": "Mother has sole legal and physical custody per court order dated 2022-03-15. Father has supervised visitation only - NOT to be released to father without court-appointed supervisor present.",
+        "authorizedPickups": [
+          {
+            "name": "Gloria Johnson",
+            "relationship": "Grandmother (Maternal)",
+            "phone": "(718) 555-0456"
+          }
+        ],
+        "restrictedPersons": [
+          {
+            "name": "Derek Johnson",
+            "relationship": "Father",
+            "description": "Per custody order, father may not pick up student without court-appointed supervisor. Supervised visitation only.",
+            "courtOrderOnFile": true,
+            "actionIfAppears": "Do NOT release student. Contact mother immediately at (917) 555-0777. If he refuses to leave, contact school security and call 911."
+          }
+        ],
+        "legalDocuments": "**Court documents on file:**\n- Custody order (2022-03-15)\n- Restraining order modification (2023-01-10)\n- Supervised visitation schedule\n\nAll documents in student's confidential folder in main office."
+      },
+      "financial": {
+        "financialAidStatus": "full",
+        "scholarshipPercent": 100,
+        "paymentStatus": "current",
+        "billingNotes": "Full scholarship recipient - Tribeca Community Fund. Annual renewal required. Application submitted for 2025-26."
+      },
+      "iep": {
+        "hasIEP": false,
+        "iepDate": null,
+        "iepSummary": null,
+        "has504": true,
+        "accommodations": "**504 Plan for Type 1 Diabetes**\n\n**Health Accommodations:**\n- Unlimited bathroom breaks\n- Access to water and snacks at all times\n- Blood glucose testing before lunch, snacks, PE, and as needed\n- Permission to leave class without asking if feeling low\n- Rest in health office if blood sugar out of range\n\n**Academic Accommodations:**\n- Extended time on tests if BG event occurs during testing\n- Make-up work without penalty for diabetes-related absences\n- Access to phone to communicate with parents about health"
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student-full-profile",
+        "name": "StudentFullProfile"
+      },
+      "_touched": 1776727190842
+    }
+  }
+}

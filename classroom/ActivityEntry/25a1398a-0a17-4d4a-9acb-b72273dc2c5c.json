@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784827494
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/1",
+      "domain": "Social",
+      "content": "he said I want play games and finished his social skills",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Social",
+      "reasoning": "The observation indicates Jamie used 'I want' which is part of the requesting with full sentences social skills activity.",
+      "timestamp": "2026-04-14T21:48:38.891Z",
+      "confidence": 95,
+      "highlighted": null,
+      "activityDate": "2026-04-14",
+      "matchedBlock": "Social Skills: Requesting with Full Sentences during free choice. Prompt Jamie to use 'I want ____' when requesting toys or activities.",
+      "suggestedGoal": "Requesting with Full Sentences"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

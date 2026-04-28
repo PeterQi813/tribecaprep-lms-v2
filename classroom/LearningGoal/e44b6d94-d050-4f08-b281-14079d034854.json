@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785501767
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Visual Performance",
+      "dueDate": "2026-05-15",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Block Imitation",
+      "description": "",
+      "startedDate": "2026-04-02",
+      "studentName": "Noah Brooks",
+      "targetMastery": 85,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B12"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/e9f32db4-9ab0-4de8-bfbd-974f7626deba"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

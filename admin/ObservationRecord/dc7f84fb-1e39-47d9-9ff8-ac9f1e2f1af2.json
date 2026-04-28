@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Social",
+      "linkedGoal": "",
+      "score": "—",
+      "staffInitials": "??",
+      "staffColor": "teal",
+      "flagged": "false",
+      "notes": "Jamie chose the building blocks during free choice. She built a tower of 10 and showed it to Emmy saying \"look, tall!\"",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747360250
+    }
+  }
+}

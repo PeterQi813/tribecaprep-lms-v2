@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785418834
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-05-25",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Joint Attention — Book Sharing",
+      "description": "",
+      "startedDate": "2026-04-02",
+      "studentName": "Sofia Martinez",
+      "targetMastery": 80,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R C7"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/9ab0ede8-bfbd-474f-b626-debac4fed13d"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

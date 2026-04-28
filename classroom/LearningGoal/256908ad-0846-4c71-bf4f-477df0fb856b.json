@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785397330
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Language",
+      "dueDate": "2026-06-15",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Language For Learning",
+      "description": "",
+      "startedDate": "2026-04-12",
+      "studentName": "Jamie Chen",
+      "targetMastery": 80,
+      "currentMastery": 90,
+      "evidenceEntries": [],
+      "standardAlignment": ""
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

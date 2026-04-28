@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Jamie Chen",
+      "studentId": "TPS-2026-0847",
+      "program": "Washing Hands Independently",
+      "domain": "Self-Help",
+      "domainKey": "self-help",
+      "abllsCode": "S1",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-30",
+      "dueDate": "2026-05-05",
+      "currentTarget": "Complete 7-step handwashing with visual support, 5/5 trials",
+      "active": "Yes",
+      "notes": "Fade picture schedule — on step 3 of 5",
+      "scheduledWeek": "",
+      "targetMastery": 95,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Handwashing visual",
+          "detail": "7-step laminated"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747497903
+    }
+  }
+}

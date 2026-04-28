@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Alex Park",
+      "studentId": "TPS-2026-0912",
+      "program": "Ball Skills — Catch & Throw",
+      "domain": "Gross Motor",
+      "domainKey": "motor",
+      "abllsCode": "G4",
+      "masterSheet": "No",
+      "programSheet": "Yes",
+      "started": "2026-03-20",
+      "dueDate": "2026-05-10",
+      "currentTarget": "Catch and return 8-inch ball from 6 ft distance, 7/10 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 70,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "8-inch playground ball",
+          "detail": "Soft grip"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747460576
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785415499
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Vocal",
+      "dueDate": "2026-06-05",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Echoic Words — Set 1",
+      "description": "SLP consult 4/22 — bring progress data",
+      "startedDate": "2026-03-18",
+      "studentName": "Marcus Johnson",
+      "targetMastery": 85,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R EC1"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fe21399a-e9f3-4db4-9ab0-ede8bfbd974f"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

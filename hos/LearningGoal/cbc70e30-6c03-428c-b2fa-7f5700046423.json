@@ -1,0 +1,38 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Academic",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": null,
+      "goalTitle": "Handwriting — Lowercase Letters",
+      "description": "Fidget grip trialed 4/08 — continues; movement break every 10 min per 504",
+      "studentName": "Alex Park",
+      "targetMastery": 75,
+      "currentMastery": 0
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

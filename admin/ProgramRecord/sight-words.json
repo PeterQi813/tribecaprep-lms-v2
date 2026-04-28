@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Jamie Chen",
+      "studentId": "",
+      "program": "Sight Words",
+      "domain": "Reading",
+      "domainKey": "reading",
+      "abllsCode": "H12",
+      "masterSheet": "Yes",
+      "programSheet": "No",
+      "started": "2026-04-13",
+      "currentTarget": "Live, think, any",
+      "active": "Yes",
+      "notes": "Need master list",
+      "scheduledWeek": "",
+      "dueDate": "2026-06-01",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Dolch Sight Word flashcards",
+          "detail": "Set 3 (Grade 2)"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Sight word bingo game",
+          "detail": ""
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747541054
+    }
+  }
+}

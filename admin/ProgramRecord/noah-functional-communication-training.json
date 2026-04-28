@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Noah Brooks",
+      "studentId": "TPS-2026-0501",
+      "program": "Functional Communication Training",
+      "domain": "Behavioral",
+      "domainKey": "behavioral",
+      "abllsCode": "FCT",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-25",
+      "dueDate": "2026-06-15",
+      "currentTarget": "Request break using \"break please\" card instead of screaming, 4/5 opportunities",
+      "active": "Yes",
+      "notes": "BIP active — data to BCBA weekly",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "PECS \"break\" card",
+          "detail": "Velcro on desk"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Break area timer",
+          "detail": "2-min visual"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747514884
+    }
+  }
+}

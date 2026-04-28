@@ -1,0 +1,35 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Dana Rivers",
+      "role": "1:1 Aide",
+      "initials": "DR",
+      "avatarColor": "teal",
+      "studentCount": 3,
+      "weeklyObservations": 32,
+      "status": "Active",
+      "email": "d.rivers@tribecaprep.org",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../staff-member",
+        "name": "StaffMember"
+      },
+      "_touched": 1776747570557
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Behavioral",
+      "linkedGoal": "",
+      "score": "1/1",
+      "staffInitials": "??",
+      "staffColor": "teal",
+      "flagged": "false",
+      "notes": "Jamie used the weighted lap pad and took deep breaths for 3 minutes. She went back to her seat when the timer beeped.",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747337968
+    }
+  }
+}

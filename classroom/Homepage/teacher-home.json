@@ -1,0 +1,40 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Homepage/teacher-home",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "Homepage",
+        "module": "../homepage"
+      },
+      "_touched": 1776787065082
+    },
+    "type": "card",
+    "attributes": {
+      "schoolName": "Tribeca Prep",
+      "greeting": "Good morning, Ms. Green",
+      "date": "2026-02-05",
+      "title": "Tribeca Prep"
+    },
+    "relationships": {
+      "teacher": {
+        "links": {
+          "self": "../Staff/ms-green"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Staff/ms-green"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Classroom/classroom-2a"
+        }
+      }
+    }
+  }
+}

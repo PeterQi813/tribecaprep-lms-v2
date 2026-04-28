@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785462553
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Math",
+      "dueDate": "2026-06-14",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Sorting Non-Identical Objects",
+      "description": "Jamie Chen will sort 3 categories of non-identical objects with 66% accuracy with consistent accuracy across teaching sessions.",
+      "startedDate": "2026-04-13",
+      "studentName": "Jamie Chen",
+      "targetMastery": 66,
+      "currentMastery": 93,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B12"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "domain": null,
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": null,
+      "goalTitle": "Morning Routine",
+      "description": "",
+      "studentName": "Emma Chen",
+      "targetMastery": 80,
+      "currentMastery": 0
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

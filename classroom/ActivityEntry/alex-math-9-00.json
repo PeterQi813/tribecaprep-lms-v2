@@ -1,0 +1,52 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/alex-math-9-00",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776786873469
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T09:00:00.000Z",
+      "content": "DI Math Lesson 48. Alex solved 16 of 20 problems. Good progress on addition word problems. Still needs support with subtraction word problems — used manipulatives for the last 4.",
+      "entryType": "Academic",
+      "score": "16/20",
+      "aiTagged": "false",
+      "flagNote": null,
+      "title": "Academic Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/mr-reyes"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Staff/mr-reyes"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/alex-p"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Student/alex-p"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": "../LearningGoal/alex-math-word-problems"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/LearningGoal/alex-math-word-problems"
+        }
+      }
+    }
+  }
+}

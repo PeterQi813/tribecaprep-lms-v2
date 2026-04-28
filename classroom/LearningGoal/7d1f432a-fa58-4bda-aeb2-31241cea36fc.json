@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785454414
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Self-Help",
+      "dueDate": "2026-05-20",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Zipping Coat",
+      "description": "Parent reports success at home — generalize to school",
+      "startedDate": "2026-04-01",
+      "studentName": "Morgan Shaw",
+      "targetMastery": 90,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R S7"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/399ae9f3-2db4-4ab0-ade8-bfbd974f7626"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

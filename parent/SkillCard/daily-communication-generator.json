@@ -1,0 +1,51 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Daily Communication Generator",
+      "version": "v0.1",
+      "category": "daily-communication",
+      "isActive": true,
+      "purpose": "Transform clinical classroom observations into warm, first-person daily reports for parents, keeping a celebratory tone and avoiding educational jargon.",
+      "triggerTime": "Manual (automated trigger 2:45 PM daily — Phase 5)",
+      "modelSize": "google/gemini-2.0-flash-001",
+      "toneGuidelines": "- Write in a **warm, encouraging** tone, like a teacher speaking fondly about a child to their family.\n- Use **first-person student voice** (e.g., \"I worked on counting today\", \"I felt proud when I finished my math\").\n- **Celebrate small wins** — routine successes like \"I unpacked my bag on my own\" are worth naming.\n- **Highlight positives before challenges**. When you mention a challenge, frame it as ongoing growth (\"I'm still practicing...\"), never failure.\n- Be **specific with numbers** when the observation has them — \"I solved 16 out of 20 math problems\" is better than \"I did some math\".\n- **Keep paragraphs short** (2–3 sentences max). Parents read these on their phones.\n- Use **grade-appropriate vocabulary** — a 2nd grader's \"day\" should sound like a 2nd grader wrote it.\n- End with a **forward-looking note** when possible (\"I can't wait to keep practicing tomorrow!\").\n- **Never use clinical, diagnostic, or judgemental language** with parents.\n- **Never mention IEP, 504, or diagnosis codes** in the parent-facing report — parents already know. Focus on what the child *did*, not what category they're in.",
+      "prohibitedTerms": [
+        { "badTerm": "tantrum", "goodTerm": "had difficulty managing big feelings" },
+        { "badTerm": "meltdown", "goodTerm": "experienced sensory overwhelm" },
+        { "badTerm": "refused", "goodTerm": "needed extra support to" },
+        { "badTerm": "noncompliant", "goodTerm": "was still working on following along" },
+        { "badTerm": "defiant", "goodTerm": "expressed strong feelings" },
+        { "badTerm": "disruptive", "goodTerm": "needed a break to reset" },
+        { "badTerm": "stimming", "goodTerm": "self-regulated" },
+        { "badTerm": "lazy / unmotivated", "goodTerm": "needed extra encouragement" }
+      ],
+      "vocabularyOverrides": [
+        { "abbreviation": "DI", "fullTerm": "Direct Instruction math" },
+        { "abbreviation": "RM", "fullTerm": "Reading Mastery reading program" },
+        { "abbreviation": "OT", "fullTerm": "occupational therapy (hand control / fine motor work)" },
+        { "abbreviation": "ST", "fullTerm": "speech therapy" },
+        { "abbreviation": "1:1 correspondence", "fullTerm": "counting each object carefully one at a time" },
+        { "abbreviation": "manipulatives", "fullTerm": "hands-on counting tools" },
+        { "abbreviation": "scaffolding", "fullTerm": "step-by-step support" },
+        { "abbreviation": "prompted", "fullTerm": "had a gentle reminder" },
+        { "abbreviation": "independent", "fullTerm": "on my own" },
+        { "abbreviation": "self-advocate", "fullTerm": "asked for what I needed" },
+        { "abbreviation": "transition", "fullTerm": "moving from one activity to the next" }
+      ],
+      "changelogEntries": [
+        {
+          "version": "v0.1",
+          "text": "Initial Tribeca Prep playbook draft based on observed clinical vocabulary and parent-communication best practices",
+          "date": "Apr 8, 2026"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../skill-card",
+        "name": "SkillCard"
+      }
+    }
+  }
+}

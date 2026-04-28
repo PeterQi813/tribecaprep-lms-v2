@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784879549
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/1",
+      "domain": "Science",
+      "content": "Jamie sat in the circle and listened to the plants lesson. She pointed to the flower card when asked \"which one blooms?\" and said \"leaf\" when asked what plants have. Engaged for the full lesson.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie participated in the science lesson about plants, identifying a flower and naming a plant part, indicating understanding and engagement.",
+      "timestamp": "2026-04-14T02:58:35.273Z",
+      "confidence": 95,
+      "highlighted": null,
+      "activityDate": "2026-04-13",
+      "matchedBlock": "Science/Social Studies: Group circle time, introduce topic of 'plants' with picture cards.",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

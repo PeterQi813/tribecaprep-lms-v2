@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Marcus Johnson",
+      "studentId": "TP-2023-0089",
+      "program": "Echoic Words — Set 1",
+      "domain": "Vocal",
+      "domainKey": "language",
+      "abllsCode": "EC1",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-18",
+      "dueDate": "2026-06-05",
+      "currentTarget": "Echo 30 single-syllable words clearly, 85% articulation match",
+      "active": "Yes",
+      "notes": "SLP consult 4/22 — bring progress data",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Echoic word list v3",
+          "detail": "CVC targets"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747500265
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776726340270
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/1",
+      "domain": "Science",
+      "content": "Jamie sat in the circle and listened to the plants lesson. She pointed to the flower card when asked \"which one blooms?\" and said \"leaf\" when asked what plants have. Engaged for the full lesson.",
+      "aiTagged": null,
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "timestamp": "2026-04-14T02:58:35.273Z",
+      "authorName": "",
+      "studentName": "Jamie Chen",
+      "activityDate": "2026-04-13",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/f732b302-5ab9-4d8f-b665-5084777ba0f1",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

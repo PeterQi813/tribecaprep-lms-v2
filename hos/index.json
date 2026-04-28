@@ -1,0 +1,16 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "CardsGrid",
+        "module": "https://cardstack.com/base/cards-grid"
+      },
+      "_touched": 1776726519015
+    },
+    "type": "card",
+    "attributes": {
+      "cardTitle": "HoS Dashboard",
+      "realmName": "HoS Dashboard"
+    }
+  }
+}

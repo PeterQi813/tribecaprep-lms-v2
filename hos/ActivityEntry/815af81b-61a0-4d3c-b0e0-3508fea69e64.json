@@ -1,0 +1,53 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "score": "19/20",
+      "domain": "Math",
+      "content": "he finished count with 1:1 correspondence and get score 20/20",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": "",
+      "entryType": null,
+      "timestamp": "2026-04-21T07:22:48.920Z",
+      "authorName": "Dana Rivers",
+      "studentName": "Jamie Chen",
+      "activityDate": "2026-04-21",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/9ae259e7-815a-481b-a1a0-1d3c30e03508",
+      "suggestedGoal": "Count with 1:1 Correspondence"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

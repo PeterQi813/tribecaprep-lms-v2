@@ -1,0 +1,12 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {},
+    "meta": {
+      "adoptsFrom": {
+        "module": "../test-sync-alert-to-hos",
+        "name": "TestSyncAlertToHos"
+      }
+    }
+  }
+}

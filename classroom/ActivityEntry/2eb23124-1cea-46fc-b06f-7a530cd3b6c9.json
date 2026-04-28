@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784829356
+    },
+    "type": "card",
+    "attributes": {
+      "score": "8/10",
+      "domain": "Language",
+      "content": "Ran 10 trials of 2-step directions with Jamie. Got 8/10 correct on related pairs (\"get your backpack then sit down\"). Missed 2 where second step involved a novel verb (\"bring\"). Used visual first-then card on trials 7-10.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie was given 2-step directions, aligning with the 'Following 2-Step Directions' block. The observation includes a score.",
+      "timestamp": "2026-04-15T19:33:07.260Z",
+      "confidence": 100,
+      "highlighted": null,
+      "activityDate": "2026-04-15",
+      "matchedBlock": "Following 2-Step Directions: Give Jamie two related directions (e.g., 'get your book, then sit down').",
+      "suggestedGoal": "Following 2-Step Directions"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

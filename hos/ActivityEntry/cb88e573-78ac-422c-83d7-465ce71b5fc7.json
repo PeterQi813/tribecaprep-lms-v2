@@ -1,0 +1,54 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-04-14T21:48:06.640Z",
+      "content": "he finished science class",
+      "entryType": "Academic",
+      "score": "",
+      "aiTagged": null,
+      "flagNote": null,
+      "domain": "General",
+      "suggestedGoal": "",
+      "activityDate": "2026-04-14",
+      "studentName": "Jamie Chen",
+      "authorName": "",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/ebb3ab39-3010-4f25-a139-8a0a17ad4a9a",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../activity-entry",
+        "name": "ActivityEntry"
+      },
+      "_touched": 1776726356846
+    }
+  }
+}

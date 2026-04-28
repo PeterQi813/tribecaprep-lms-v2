@@ -1,0 +1,38 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      }
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Self-Help",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": null,
+      "goalTitle": "Washing Hands Independently",
+      "description": "Fade picture schedule — on step 3 of 5",
+      "studentName": "Jamie Chen",
+      "targetMastery": 95,
+      "currentMastery": 0
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

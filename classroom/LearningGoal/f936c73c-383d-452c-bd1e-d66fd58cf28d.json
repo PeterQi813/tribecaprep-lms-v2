@@ -1,0 +1,43 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Receptive ID of Common Objects",
+      "description": "",
+      "domain": "Receptive Language",
+      "priority": "High",
+      "currentMastery": 0,
+      "targetMastery": 80,
+      "studentName": "Marcus Johnson",
+      "startedDate": "2026-04-13",
+      "standardAlignment": "ABLLS-R C8",
+      "dueDate": "2026-05-13",
+      "evidenceEntries": [],
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fe21399a-e9f3-4db4-9ab0-ede8bfbd974f"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../learning-goal",
+        "name": "LearningGoal"
+      },
+      "_touched": 1776785511394
+    }
+  }
+}

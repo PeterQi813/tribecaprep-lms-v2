@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784833036
+    },
+    "type": "card",
+    "attributes": {
+      "score": null,
+      "domain": "General",
+      "content": "He ate everything for lunch and a snack",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "General",
+      "reasoning": "The observation mentions lunch and a snack, which aligns with the Lunch + Recess block and sensory break block.",
+      "timestamp": "2026-04-10T20:58:00.999Z",
+      "confidence": 75,
+      "highlighted": null,
+      "activityDate": null,
+      "matchedBlock": "Lunch + Recess",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

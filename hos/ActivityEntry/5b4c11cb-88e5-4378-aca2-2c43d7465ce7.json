@@ -1,0 +1,54 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-04-14T21:49:35.615Z",
+      "content": "He did a pretty good job today. The day has ended.",
+      "entryType": "General",
+      "score": "",
+      "aiTagged": null,
+      "flagNote": null,
+      "domain": "General",
+      "suggestedGoal": "",
+      "activityDate": "2026-04-14",
+      "studentName": "Jamie Chen",
+      "authorName": "",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/b72273dc-2c5c-4539-89e9-9fbc644a1d7c",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../activity-entry",
+        "name": "ActivityEntry"
+      },
+      "_touched": 1776726345641
+    }
+  }
+}

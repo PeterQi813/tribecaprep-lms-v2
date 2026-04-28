@@ -1,0 +1,134 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "cardInfo": {
+        "title": null,
+        "description": null,
+        "thumbnailURL": null,
+        "notes": null
+      },
+      "identity": {
+        "studentId": "TP-2024-0201",
+        "firstName": "Sofia",
+        "lastName": "Martinez",
+        "preferredName": "",
+        "dateOfBirth": "2019-07-08",
+        "gradeLevel": {
+          "value": null
+        },
+        "enrollmentDate": "2024-09-01",
+        "withdrawalDate": null,
+        "active": true
+      },
+      "medical": {
+        "medicalConditions": null,
+        "allergies": [],
+        "medications": [],
+        "dietaryRestrictions": null,
+        "primaryPhysician": {
+          "name": null,
+          "phone": null,
+          "fax": null,
+          "email": null,
+          "address": {
+            "street1": null,
+            "street2": null,
+            "city": null,
+            "state": null,
+            "zipCode": null
+          }
+        },
+        "medicalNotes": null
+      },
+      "family": {
+        "primaryParent": {
+          "firstName": null,
+          "lastName": null,
+          "relationship": {
+            "value": null
+          },
+          "email": null,
+          "phone": null,
+          "phoneAlt": null,
+          "workPhone": null,
+          "employer": null,
+          "address": {
+            "street1": null,
+            "street2": null,
+            "city": null,
+            "state": null,
+            "zipCode": null
+          },
+          "isPrimaryContact": false,
+          "portalAccess": false,
+          "receivesReports": false
+        },
+        "secondaryParent": {
+          "firstName": null,
+          "lastName": null,
+          "relationship": {
+            "value": null
+          },
+          "email": null,
+          "phone": null,
+          "phoneAlt": null,
+          "workPhone": null,
+          "employer": null,
+          "address": {
+            "street1": null,
+            "street2": null,
+            "city": null,
+            "state": null,
+            "zipCode": null
+          },
+          "isPrimaryContact": false,
+          "portalAccess": false,
+          "receivesReports": false
+        },
+        "emergencyContacts": [],
+        "householdNotes": null
+      },
+      "custody": {
+        "custodyArrangement": {
+          "value": null
+        },
+        "custodyNotes": null,
+        "authorizedPickups": [],
+        "restrictedPersons": [],
+        "legalDocuments": null
+      },
+      "financial": {
+        "financialAidStatus": {
+          "value": null
+        },
+        "scholarshipPercent": null,
+        "paymentStatus": {
+          "value": null
+        },
+        "billingNotes": null
+      },
+      "iep": {
+        "hasIEP": false,
+        "iepDate": null,
+        "iepSummary": null,
+        "has504": false,
+        "accommodations": null
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student-full-profile",
+        "name": "StudentFullProfile"
+      },
+      "_touched": 1776747613086
+    }
+  }
+}

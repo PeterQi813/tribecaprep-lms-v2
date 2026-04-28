@@ -1,0 +1,54 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-04-14T19:21:24.785Z",
+      "content": "he take a sensory break",
+      "entryType": "General",
+      "score": "",
+      "aiTagged": null,
+      "flagNote": null,
+      "domain": "General",
+      "suggestedGoal": "",
+      "activityDate": "2026-04-14",
+      "studentName": "Jamie Chen",
+      "authorName": "",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/8f22dc0d-a522-4903-a2f9-08a087bb443d",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../activity-entry",
+        "name": "ActivityEntry"
+      },
+      "_touched": 1776726359911
+    }
+  }
+}

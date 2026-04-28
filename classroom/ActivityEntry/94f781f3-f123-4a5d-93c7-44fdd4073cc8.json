@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784853686
+    },
+    "type": "card",
+    "attributes": {
+      "score": "18/20",
+      "domain": "Math",
+      "content": "He finished the lesson 1 math problem and got a grade of 18/20.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie completed the math lesson and received a grade, indicating academic performance in math during the direct instruction block.",
+      "timestamp": "2026-04-10T20:52:54.683Z",
+      "confidence": 100,
+      "highlighted": null,
+      "activityDate": null,
+      "matchedBlock": "9:00 Direct Instruction (structured academic block) Math Lesson 1",
+      "suggestedGoal": "Complete all Grade 2 Mathematics curriculum"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/69d7b133-3257-41e6-9736-d7f77712defa"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

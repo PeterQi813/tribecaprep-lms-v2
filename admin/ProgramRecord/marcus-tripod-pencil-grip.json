@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Marcus Johnson",
+      "studentId": "TP-2023-0089",
+      "program": "Tripod Pencil Grip",
+      "domain": "Fine Motor",
+      "domainKey": "motor",
+      "abllsCode": "FM3",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-10",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Maintain tripod grip for 5 min during tracing activity",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Pencil grip trainer",
+          "detail": "Crossover style"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Tracing worksheets",
+          "detail": "Shapes + letters"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747504201
+    }
+  }
+}

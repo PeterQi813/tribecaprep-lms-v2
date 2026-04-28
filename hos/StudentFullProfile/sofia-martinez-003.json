@@ -1,0 +1,126 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": false,
+        "hasIEP": false,
+        "iepDate": null,
+        "iepSummary": null,
+        "accommodations": null
+      },
+      "family": {
+        "primaryParent": {
+          "name": "Ana Martinez",
+          "relationship": "mother",
+          "phone": "(212) 555-0600",
+          "email": "ana.martinez@lawfirm.com",
+          "isEmergencyContact": true,
+          "canPickup": true
+        },
+        "householdNotes": "Two-parent household with older sibling (Mateo, 2nd grade at same school). Both parents have demanding careers. Nanny Elena is primary caregiver during weekdays. Grandparents very involved.",
+        "secondaryParent": {
+          "name": "David Martinez",
+          "relationship": "father",
+          "phone": "(646) 555-0602",
+          "email": "david.martinez@hospital.org",
+          "isEmergencyContact": false,
+          "canPickup": true
+        },
+        "emergencyContacts": [
+          {
+            "name": "Elena Rodriguez",
+            "relationship": "Nanny",
+            "phone": "(347) 555-0678",
+            "priority": 1,
+            "pickupAuthorized": true
+          },
+          {
+            "name": "Carlos Martinez",
+            "relationship": "Grandfather",
+            "phone": "(212) 555-0789",
+            "priority": 2,
+            "pickupAuthorized": true
+          },
+          {
+            "name": "Isabella Martinez",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0790",
+            "priority": 3,
+            "pickupAuthorized": true
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": null,
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Elena Rodriguez",
+            "relationship": "Nanny",
+            "phone": "(347) 555-0678"
+          },
+          {
+            "name": "Carlos Martinez",
+            "relationship": "Grandfather",
+            "phone": "(212) 555-0789"
+          },
+          {
+            "name": "Isabella Martinez",
+            "relationship": "Grandmother",
+            "phone": "(212) 555-0790"
+          }
+        ],
+        "restrictedPersons": [],
+        "custodyArrangement": "Joint"
+      },
+      "medical": {
+        "allergies": [
+          {
+            "allergen": "Dairy",
+            "severity": "mild",
+            "reaction": "Stomach upset, mild skin rash",
+            "treatment": "Avoid dairy products. If ingested accidentally, monitor symptoms. Benadryl if rash develops.",
+            "epiPenRequired": false,
+            "notes": "Lactose intolerant - not a true allergy. Can have lactose-free alternatives."
+          }
+        ],
+        "medications": [],
+        "medicalNotes": "Healthy child, all immunizations current. Vision and hearing screening passed September 2024.",
+        "primaryPhysician": {
+          "fax": "(212) 555-0501",
+          "name": "Dr. Maria Santos, Pediatrics",
+          "email": "msantos@tribecakids.com",
+          "phone": "(212) 555-0500"
+        },
+        "medicalConditions": null,
+        "dietaryRestrictions": "**Lactose Intolerant**\n\nProvide dairy-free alternatives:\n- Oat milk instead of regular milk\n- Dairy-free cheese and yogurt options\n- Check ingredients on baked goods"
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Martinez",
+        "firstName": "Sofia",
+        "studentId": "TP-2024-0201",
+        "gradeLevel": "K",
+        "dateOfBirth": "2019-07-08",
+        "preferredName": null,
+        "enrollmentDate": "2024-09-01",
+        "withdrawalDate": null,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Sofia&backgroundColor=f0d4e0"
+      },
+      "financial": {
+        "billingNotes": "Paid in full for 2024-25 school year. Sibling discount applied (brother in 2nd grade).",
+        "paymentStatus": "current",
+        "financialAidStatus": "none",
+        "scholarshipPercent": null
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student-full-profile",
+        "name": "StudentFullProfile"
+      },
+      "_touched": 1776727220970
+    }
+  }
+}

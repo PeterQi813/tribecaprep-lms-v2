@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Marcus Johnson",
+      "studentId": "TP-2023-0089",
+      "program": "Number Identification 1–20",
+      "domain": "Academic",
+      "domainKey": "academic",
+      "abllsCode": "M2",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-15",
+      "dueDate": "2026-05-20",
+      "currentTarget": "Receptively identify numerals 1–20 with 90% accuracy in field of 5",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Number flashcards",
+          "detail": "1–20 bold font"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747501683
+    }
+  }
+}

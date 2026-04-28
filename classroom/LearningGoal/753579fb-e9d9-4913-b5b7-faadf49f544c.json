@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785445958
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Language",
+      "dueDate": "2026-05-05",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Tact Common Objects",
+      "description": "Parent requested emphasis on kitchen vocabulary before May conference",
+      "startedDate": "2026-03-18",
+      "studentName": "Alex Park",
+      "targetMastery": 85,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R C5"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fdcd2ab0-0178-4e21-b99a-e9f32db49ab0"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

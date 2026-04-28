@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Emma Chen",
+      "studentId": "TP-2022-0156",
+      "program": "Phonics Blending — CVC Words",
+      "domain": "Academic",
+      "domainKey": "academic",
+      "abllsCode": "R6",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-10",
+      "dueDate": "2026-05-25",
+      "currentTarget": "Blend CVC words (cat, mat, pig) with 85% accuracy across 20 words",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "CVC word card deck",
+          "detail": "Short-a, -i, -o sets"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Elkonin sound boxes",
+          "detail": "Magnetic"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747487627
+    }
+  }
+}

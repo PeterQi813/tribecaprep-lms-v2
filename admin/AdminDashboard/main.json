@@ -1,0 +1,47 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "AdminDashboard",
+        "module": "../admin-dashboard"
+      },
+      "_touched": 1776747233343
+    },
+    "type": "card",
+    "attributes": {
+      "title": "Tribeca Prep Admin",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "realmName": null,
+      "studentRefs": [],
+      "observations": [],
+      "scheduleCards": []
+    },
+    "relationships": {
+      "staff": {
+        "links": {
+          "self": null
+        }
+      },
+      "programs": {
+        "links": {
+          "self": null
+        }
+      },
+      "learningGoals": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

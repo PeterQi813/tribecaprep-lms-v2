@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Sofia Martinez",
+      "studentId": "TP-2024-0201",
+      "program": "Matching 3D to 2D",
+      "domain": "Visual Performance",
+      "domainKey": "visual",
+      "abllsCode": "B5",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-18",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Match 3D objects to 2D pictures, 18/20 items",
+      "active": "Yes",
+      "notes": "Mastery trending — consider moving to generalization phase",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "3D-to-2D matching kit",
+          "detail": "25 item pairs"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747545122
+    }
+  }
+}

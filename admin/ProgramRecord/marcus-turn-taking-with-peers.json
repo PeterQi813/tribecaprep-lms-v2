@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Marcus Johnson",
+      "studentId": "TP-2023-0089",
+      "program": "Turn-Taking with Peers",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "C9",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-22",
+      "dueDate": "2026-05-30",
+      "currentTarget": "Take 5 consecutive turns in structured game with peer, minimal prompts",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Connect Four",
+          "detail": "Peer game set"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Turn-taking visual",
+          "detail": "My turn / your turn"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747505541
+    }
+  }
+}

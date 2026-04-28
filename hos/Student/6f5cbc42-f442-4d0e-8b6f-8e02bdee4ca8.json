@@ -1,0 +1,95 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "cardInfo": {
+        "title": null,
+        "description": null,
+        "thumbnailURL": null,
+        "notes": null
+      },
+      "gradeLevel": {
+        "value": null
+      },
+      "photoUrl": null,
+      "currentLocation": {
+        "location": null,
+        "status": {
+          "value": null
+        },
+        "since": null
+      },
+      "tags": [],
+      "primaryParent": {
+        "firstName": null,
+        "lastName": null,
+        "relationship": {
+          "value": null
+        },
+        "email": null,
+        "phone": null,
+        "phoneAlt": null,
+        "workPhone": null,
+        "employer": null,
+        "address": {
+          "street1": null,
+          "street2": null,
+          "city": null,
+          "state": null,
+          "zipCode": null
+        },
+        "isPrimaryContact": false,
+        "portalAccess": false,
+        "receivesReports": false
+      },
+      "secondaryParent": {
+        "firstName": null,
+        "lastName": null,
+        "relationship": {
+          "value": null
+        },
+        "email": null,
+        "phone": null,
+        "phoneAlt": null,
+        "workPhone": null,
+        "employer": null,
+        "address": {
+          "street1": null,
+          "street2": null,
+          "city": null,
+          "state": null,
+          "zipCode": null
+        },
+        "isPrimaryContact": false,
+        "portalAccess": false,
+        "receivesReports": false
+      },
+      "emergencyContacts": [],
+      "staffingRatio": null,
+      "location": "In Classroom",
+      "locationDetail": null,
+      "returnTime": null,
+      "schedule": [],
+      "alerts": []
+    },
+    "relationships": {
+      "fullProfile": {
+        "links": {
+          "self": "../StudentFullProfile/noah-brooks"
+        }
+      },
+      "supportStaff": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../student",
+        "name": "Student"
+      },
+      "_touched": 1776727022157
+    }
+  }
+}

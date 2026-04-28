@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Academic",
+      "linkedGoal": "Count with 1:1 Correspondence",
+      "score": "4/5",
+      "staffInitials": "MR",
+      "staffColor": "purple",
+      "flagged": "false",
+      "notes": "Jamie touched each block one at a time while counting out loud to 5. She got 4/5 sets correct — missed one block in the last set.",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747317873
+    }
+  }
+}

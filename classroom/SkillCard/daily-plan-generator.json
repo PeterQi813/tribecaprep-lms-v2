@@ -1,0 +1,81 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Daily Plan Generator",
+      "version": "v0.1",
+      "category": "daily-plan",
+      "isActive": true,
+      "purpose": "Generate a developmentally appropriate daily schedule for one or more students based on their active learning goals, grade level, yesterday's activities, and recent teacher-committed plans. Progressive, non-repeating, style-matching.",
+      "triggerTime": "Manual (Phase 5 automated trigger 7:45 AM)",
+      "modelSize": "google/gemini-2.0-flash-001",
+      "toneGuidelines": "## Tone & Format\n\n- This plan is for a **teacher to execute** — be specific and technical, not parent-friendly.\n- Time slots follow the school's typical 8:45 AM–3:00 PM bell schedule.\n- **Distribute activities across domains** (Math, Reading, Social, Motor). Don't cluster all Math in the morning.\n- **Include sensory breaks every 60–90 minutes** for students with regulation needs.\n- **Weight goals by progress**: goals below 70% progress get MORE practice time today; goals near mastery (>85%) get light maintenance.\n- **Put cognitively demanding blocks in the morning** (DI Math, Reading Mastery). Put social / creative / hands-on in the afternoon.\n- **Never skip lunch, recess, or arrival homeroom.** These are fixed.\n- **Respect teacher context notes** — if teacher says \"Jamie slept poorly\", reduce cognitive load.\n- **Include `goalTag`** on every ScheduleItem that targets a LearningGoal. Leave empty for routine blocks (lunch, recess, homeroom).\n- Use `status: \"Upcoming\"` for all items (teacher updates to Done/Current throughout the day).\n- Leave `result` empty — teacher fills in after the activity happens.\n\n## Default Bell Schedule\n\n```\n8:45  Homeroom / arrival           (fixed)\n9:00  Academic block 1              (highest-priority goal)\n9:45  Academic block 2 or Specialist\n10:30 Sensory break / snack         (fixed)\n10:45 Academic block 3\n11:30 Lunch + Recess                (fixed)\n12:15 Content area (Science/Social Studies)\n1:00  Specials (Art/Music/PE)\n1:45  Social skills / group work\n2:30  Closing / reflection          (fixed)\n3:00  Dismissal                      (fixed)\n```\n\n## Progression Rules (CRITICAL — must follow)\n\n1. **No direct duplication.** Do not repeat an exact activity from the last 3 days in RECENT HISTORY below, UNLESS yesterday's score on that activity was below 60% (then repeat with a reinforcement note).\n\n2. **Advance curriculum sequentially.** When you see yesterday had \"DI Math Lesson 45\" with a good score (70%+), schedule \"DI Math Lesson 46\" today. Increment lesson numbers linearly. For skills without lesson numbers, introduce a next-level variation.\n\n3. **Mirror teacher-committed plans.** COMMITTED plans in RECENT HISTORY represent the teacher's ideal workflow. Your new plan should match their structure closely:\n   - Same general time blocks and durations\n   - Same balance of academic / sensory / social / specials\n   - Same types of activities (if teacher never schedules art in the afternoon, do not put art there)\n\n4. **Evolve gently.** Keep ~70% of the previous committed plan's structure, vary ~30% to avoid monotony while maintaining consistency.\n\n5. **Draft plans are weaker signals.** DRAFT plans in history may contain errors. Prefer patterns from COMMITTED / manual plans as the authoritative reference.",
+      "prohibitedTerms": [
+        {
+          "badTerm": "skip lunch",
+          "goodTerm": "always include Lunch + Recess block at 11:30"
+        },
+        {
+          "badTerm": "skip recess",
+          "goodTerm": "always include Recess"
+        },
+        {
+          "badTerm": "skip homeroom",
+          "goodTerm": "always start with 8:45 Homeroom"
+        },
+        {
+          "badTerm": "back-to-back cognitive load",
+          "goodTerm": "separate two academic blocks with a sensory or content break"
+        },
+        {
+          "badTerm": "social skills group at 9am",
+          "goodTerm": "schedule Social Skills Group after 1:00 PM (students need morning warm-up)"
+        },
+        {
+          "badTerm": "hallucinated curriculum",
+          "goodTerm": "only use activities tied to an existing LearningGoal or standard bell-schedule block"
+        }
+      ],
+      "vocabularyOverrides": [
+        {
+          "abbreviation": "DI",
+          "fullTerm": "Direct Instruction (structured academic block)"
+        },
+        {
+          "abbreviation": "RM",
+          "fullTerm": "Reading Mastery"
+        },
+        {
+          "abbreviation": "OT",
+          "fullTerm": "Occupational Therapy"
+        },
+        {
+          "abbreviation": "ST",
+          "fullTerm": "Speech Therapy"
+        },
+        {
+          "abbreviation": "sensory",
+          "fullTerm": "sensory break (short movement or calming activity)"
+        },
+        {
+          "abbreviation": "homeroom",
+          "fullTerm": "Homeroom (morning arrival and settling)"
+        }
+      ],
+      "changelogEntries": [
+        {
+          "version": "v0.1",
+          "text": "Initial Tribeca Prep daily plan playbook. Progressive, non-repeating, style-matching from committed history.",
+          "date": "Apr 9, 2026"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../skill-card",
+        "name": "SkillCard"
+      },
+      "_touched": 1776785941832
+    }
+  }
+}

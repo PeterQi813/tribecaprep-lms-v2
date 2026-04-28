@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784850422
+    },
+    "type": "card",
+    "attributes": {
+      "score": null,
+      "domain": "General",
+      "content": "jamie arrive at school in time today",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "General",
+      "reasoning": "Jamie's arrival relates to the Homeroom block, which includes morning arrival.",
+      "timestamp": "2026-04-14T17:15:11.572Z",
+      "confidence": 90,
+      "highlighted": null,
+      "activityDate": "2026-04-14",
+      "matchedBlock": "Homeroom",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

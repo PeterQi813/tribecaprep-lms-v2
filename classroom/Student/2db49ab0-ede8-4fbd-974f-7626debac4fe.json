@@ -1,0 +1,106 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "Student",
+        "module": "../student"
+      },
+      "_touched": 1776796343741
+    },
+    "type": "card",
+    "attributes": {
+      "tags": [],
+      "active": true,
+      "alerts": [],
+      "has504": false,
+      "hasIEP": true,
+      "cardInfo": {
+        "notes": null,
+        "title": null,
+        "description": null,
+        "thumbnailURL": null
+      },
+      "lastName": "Kim",
+      "location": "In Classroom",
+      "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Riley&backgroundColor=d4e8f0",
+      "schedule": [],
+      "firstName": "Riley",
+      "studentId": "TPS-2026-0755",
+      "gradeLevel": {
+        "value": null
+      },
+      "hasAllergy": true,
+      "returnTime": null,
+      "dateOfBirth": "2017-11-08",
+      "hasMedication": false,
+      "preferredName": "",
+      "primaryParent": {
+        "email": null,
+        "phone": null,
+        "address": {
+          "city": null,
+          "state": null,
+          "street1": null,
+          "street2": null,
+          "zipCode": null
+        },
+        "employer": null,
+        "lastName": null,
+        "phoneAlt": null,
+        "firstName": null,
+        "workPhone": null,
+        "portalAccess": false,
+        "relationship": {
+          "value": null
+        },
+        "receivesReports": false,
+        "isPrimaryContact": false
+      },
+      "staffingRatio": null,
+      "locationDetail": null,
+      "currentLocation": {
+        "since": null,
+        "status": {
+          "value": null
+        },
+        "location": null
+      },
+      "hasCustodyAlert": false,
+      "secondaryParent": {
+        "email": null,
+        "phone": null,
+        "address": {
+          "city": null,
+          "state": null,
+          "street1": null,
+          "street2": null,
+          "zipCode": null
+        },
+        "employer": null,
+        "lastName": null,
+        "phoneAlt": null,
+        "firstName": null,
+        "workPhone": null,
+        "portalAccess": false,
+        "relationship": {
+          "value": null
+        },
+        "receivesReports": false,
+        "isPrimaryContact": false
+      },
+      "emergencyContacts": []
+    },
+    "relationships": {
+      "fullProfile": {
+        "links": {
+          "self": null
+        }
+      },
+      "supportStaff": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

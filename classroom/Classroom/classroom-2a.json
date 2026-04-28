@@ -1,0 +1,16 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "classroomName": "Classroom 2A",
+      "title": "Classroom 2A"
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../classroom",
+        "name": "Classroom"
+      },
+      "_touched": 1776784899507
+    }
+  }
+}

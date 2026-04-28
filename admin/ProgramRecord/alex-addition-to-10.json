@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Alex Park",
+      "studentId": "TPS-2026-0912",
+      "program": "Addition to 10",
+      "domain": "Academic",
+      "domainKey": "academic",
+      "abllsCode": "M5",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-25",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Solve single-digit addition sums ≤10 with manipulatives, 8/10 correct",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Counting bears",
+          "detail": "Red/blue set of 20"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Number line mat",
+          "detail": "0–20 laminated"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747459456
+    }
+  }
+}

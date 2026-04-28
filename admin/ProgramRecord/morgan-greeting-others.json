@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Morgan Shaw",
+      "studentId": "TPS-2026-0633",
+      "program": "Greeting Others",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "C10",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-05",
+      "dueDate": "2026-05-25",
+      "currentTarget": "Wave and say \"hi\" to adult upon arrival, 5/5 days consecutively",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Morning greeting routine card",
+          "detail": "Entry ritual"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747506740
+    }
+  }
+}

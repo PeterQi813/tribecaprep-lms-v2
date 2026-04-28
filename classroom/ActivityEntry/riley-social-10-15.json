@@ -1,0 +1,49 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/riley-social-10-15",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776786913487
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T10:15:00.000Z",
+      "content": "Riley shared colored pencils with Alex without prompting during free draw time. Positive peer interaction — initiated conversation about their drawings.",
+      "entryType": "Social",
+      "score": null,
+      "aiTagged": "true",
+      "flagNote": null,
+      "title": "Social Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/ms-green"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Staff/ms-green"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/riley-k"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Student/riley-k"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        },
+        "data": null
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Alex Park",
+      "studentId": "TPS-2026-0912",
+      "program": "Tact Common Objects",
+      "domain": "Language",
+      "domainKey": "language",
+      "abllsCode": "C5",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-18",
+      "dueDate": "2026-05-05",
+      "currentTarget": "Label 20 common household items across 3 staff with 90% independence",
+      "active": "Yes",
+      "notes": "Parent requested emphasis on kitchen vocabulary before May conference",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Picture flashcard deck",
+          "detail": "Set A — household items"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Reinforcer menu",
+          "detail": "Updated bi-weekly"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747463139
+    }
+  }
+}

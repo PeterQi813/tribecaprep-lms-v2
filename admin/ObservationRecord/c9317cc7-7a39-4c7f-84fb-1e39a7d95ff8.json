@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Social",
+      "linkedGoal": "",
+      "score": "1/1",
+      "staffInitials": "??",
+      "staffColor": "teal",
+      "flagged": "false",
+      "notes": "Jamie played a greeting game in the circle. She waved and said \"hi\" to 5 classmates. She made eye contact with 3 of them. She did a good job in social skills.",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747353838
+    }
+  }
+}

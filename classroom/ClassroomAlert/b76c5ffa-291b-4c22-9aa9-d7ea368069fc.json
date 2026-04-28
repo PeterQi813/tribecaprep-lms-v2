@@ -1,0 +1,38 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ClassroomAlert",
+        "module": "../classroom-alert"
+      },
+      "_touched": 1776784963413
+    },
+    "type": "card",
+    "attributes": {
+      "detail": "",
+      "message": "pickup time changes @3:30",
+      "urgency": "Urgent",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "resolved": true,
+      "verified": false,
+      "alertType": "Pickup Change",
+      "createdAt": "2026-04-14T17:29:32.530Z",
+      "createdBy": "Teacher",
+      "expiresAt": "2026-04-15T03:59:59.999Z",
+      "verifiedAt": null,
+      "studentName": "Jamie Chen"
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

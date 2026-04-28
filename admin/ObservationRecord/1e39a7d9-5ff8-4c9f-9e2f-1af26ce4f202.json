@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "date": "Apr 12",
+      "studentName": "Unknown",
+      "category": "Academic",
+      "linkedGoal": "Language For Learning",
+      "score": "8/10",
+      "staffInitials": "JN",
+      "staffColor": "coral",
+      "flagged": "false",
+      "notes": "Jamie pointed to pictures when asked \"show me the ___\". She got 8/10 items right including chair, dog, and cup. Stayed focused for 12 minutes.",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../observation-record",
+        "name": "ObservationRecord"
+      },
+      "_touched": 1776747312625
+    }
+  }
+}

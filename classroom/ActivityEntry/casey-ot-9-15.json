@@ -1,0 +1,52 @@
+{
+  "data": {
+    "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/casey-ot-9-15",
+    "meta": {
+      "realmURL": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/",
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776786883496
+    },
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-02-05T09:15:00.000Z",
+      "content": "OT session: Practiced letter formation on lined paper (b, d, p, q). Casey correctly formed 8 of 12 letters. Grip strength improving — used pencil gripper for the full session.",
+      "entryType": "Academic",
+      "score": "8/12",
+      "aiTagged": "false",
+      "flagNote": null,
+      "title": "Academic Entry"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/j-novak"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Staff/j-novak"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/casey-w"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/Student/casey-w"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": "../LearningGoal/casey-fine-motor"
+        },
+        "data": {
+          "type": "card",
+          "id": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/LearningGoal/casey-fine-motor"
+        }
+      }
+    }
+  }
+}

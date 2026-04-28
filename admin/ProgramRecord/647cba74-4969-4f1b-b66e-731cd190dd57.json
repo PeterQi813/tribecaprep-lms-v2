@@ -1,0 +1,49 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ProgramRecord",
+        "module": "../program-record"
+      },
+      "_touched": 1776747446777
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "",
+      "active": "Yes",
+      "domain": "Receptive Language",
+      "dueDate": "2026-05-13",
+      "program": "Receptive ID of Common Objects",
+      "started": "2026-04-13",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "abllsCode": "C8",
+      "domainKey": "receptive",
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "language book",
+          "detail": "lesson1-10"
+        }
+      ],
+      "studentId": "TPS-2026-0847",
+      "masterSheet": "Yes",
+      "studentName": "Jamie Chen",
+      "programSheet": "Yes",
+      "currentTarget": "",
+      "scheduledWeek": null,
+      "targetMastery": 80
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

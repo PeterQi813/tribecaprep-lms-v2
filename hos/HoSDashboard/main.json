@@ -1,0 +1,15 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "title": "HoS Dashboard"
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../hos-dashboard",
+        "name": "HoSDashboard"
+      },
+      "_touched": 1776726512694
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Sofia Martinez",
+      "studentId": "TP-2024-0201",
+      "program": "Handwriting — Name Writing",
+      "domain": "Academic",
+      "domainKey": "academic",
+      "abllsCode": "W3",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-25",
+      "dueDate": "2026-06-05",
+      "currentTarget": "Write first name legibly on lined paper, 4/5 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Name tracing sheet",
+          "detail": "Dotted letters"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Primary pencil",
+          "detail": "Fat grip"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747542923
+    }
+  }
+}

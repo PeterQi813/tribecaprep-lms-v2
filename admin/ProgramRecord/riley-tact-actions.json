@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Riley Kim",
+      "studentId": "TPS-2026-0755",
+      "program": "Tact Actions",
+      "domain": "Language",
+      "domainKey": "language",
+      "abllsCode": "C6",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-28",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Label 15 actions in pictures (running, eating) 80% accuracy",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Action picture cards",
+          "detail": "20 common verbs"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747537594
+    }
+  }
+}

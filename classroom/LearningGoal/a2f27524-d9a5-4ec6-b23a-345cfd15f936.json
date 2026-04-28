@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785470755
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Vocal",
+      "dueDate": "2026-05-30",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Vocal Approximations",
+      "description": "SLP trialing vibrotactile cue — positive response",
+      "startedDate": "2026-03-20",
+      "studentName": "Riley Kim",
+      "targetMastery": 75,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R EC2"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/2db49ab0-ede8-4fbd-974f-7626debac4fe"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

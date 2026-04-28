@@ -1,0 +1,192 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "StudentFullProfile",
+        "module": "../student-full-profile"
+      },
+      "_touched": 1776727206087
+    },
+    "type": "card",
+    "attributes": {
+      "iep": {
+        "has504": false,
+        "hasIEP": true,
+        "iepDate": "2026-02-20",
+        "iepSummary": "IEP for Speech-Language Impairment + SPD. Goals: articulation (/r/, /l/ blends), expressive language (4-5 word sentences), sensory self-regulation. Services: Speech 3x/week (30 min), OT 2x/week (30 min).",
+        "accommodations": "Sensory diet (heavy work before seated tasks), chew tube available, visual sentence starters, extra processing time (5 sec wait), no latex materials, AAC device available as backup"
+      },
+      "family": {
+        "primaryParent": {
+          "email": "cat.brooks@email.com",
+          "phone": "212-555-0511",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "householdNotes": "Parents both work nearby in FiDi. Grandmother available as backup. Family very responsive to communication.",
+        "secondaryParent": {
+          "email": "tom.brooks@email.com",
+          "phone": "212-555-0512",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          },
+          "employer": null,
+          "lastName": null,
+          "phoneAlt": null,
+          "firstName": null,
+          "workPhone": null,
+          "portalAccess": false,
+          "relationship": {
+            "value": null
+          },
+          "receivesReports": false,
+          "isPrimaryContact": false
+        },
+        "emergencyContacts": [
+          {
+            "name": "Patricia Brooks",
+            "relationship": "Grandmother",
+            "phone": "212-555-0520",
+            "phoneAlt": null,
+            "priority": 1,
+            "authorizedPickup": false,
+            "hasKey": false,
+            "notes": null
+          }
+        ]
+      },
+      "custody": {
+        "custodyNotes": "Both parents authorized.",
+        "legalDocuments": null,
+        "authorizedPickups": [
+          {
+            "name": "Catherine Brooks",
+            "relationship": "Mother",
+            "phone": "212-555-0511",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Thomas Brooks",
+            "relationship": "Father",
+            "phone": "212-555-0512",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          },
+          {
+            "name": "Patricia Brooks",
+            "relationship": "Grandmother",
+            "phone": "212-555-0520",
+            "photoIdRequired": false,
+            "validUntil": null,
+            "notes": null
+          }
+        ],
+        "restrictedPersons": [],
+        "custodyArrangement": {
+          "value": null
+        }
+      },
+      "medical": {
+        "allergies": [
+          {
+            "allergen": "Shellfish",
+            "severity": {
+              "value": null
+            },
+            "reaction": "Hives, swelling",
+            "treatment": "Benadryl, monitor for 30 minutes. Call parent if symptoms worsen.",
+            "epiPenRequired": false,
+            "notes": "Avoids seafood entirely as precaution"
+          },
+          {
+            "allergen": "Latex",
+            "severity": {
+              "value": null
+            },
+            "reaction": "Contact dermatitis",
+            "treatment": "Remove latex, wash area, apply hydrocortisone",
+            "epiPenRequired": false,
+            "notes": "Use nitrile gloves only. No latex balloons in classroom."
+          }
+        ],
+        "medications": [],
+        "medicalNotes": "Sensory seeking — needs heavy work activities (carrying books, wall pushups) before seated tasks. Oral sensory needs — chew tube available in classroom. Avoid unexpected touching.",
+        "primaryPhysician": {
+          "fax": null,
+          "name": "Dr. James Okafor",
+          "email": "jokafor@downtownpeds.com",
+          "phone": "212-555-0199",
+          "address": {
+            "city": null,
+            "state": null,
+            "street1": null,
+            "street2": null,
+            "zipCode": null
+          }
+        },
+        "medicalConditions": "Speech-Language Impairment (Expressive Language Delay), Sensory Processing Disorder",
+        "dietaryRestrictions": "No shellfish or seafood"
+      },
+      "cardInfo": {
+        "notes": null,
+        "title": null,
+        "description": null,
+        "thumbnailURL": null
+      },
+      "identity": {
+        "active": true,
+        "lastName": "Brooks",
+        "firstName": "Noah",
+        "studentId": "TPS-2026-0501",
+        "gradeLevel": {
+          "value": null
+        },
+        "dateOfBirth": "2018-01-29",
+        "preferredName": "",
+        "enrollmentDate": "2024-09-03",
+        "withdrawalDate": null,
+        "photoUrl": "https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=Noah&backgroundColor=e0f0e8"
+      },
+      "financial": {
+        "billingNotes": "40% need-based scholarship. Semester payment plan.",
+        "paymentStatus": {
+          "value": null
+        },
+        "financialAidStatus": {
+          "value": null
+        },
+        "scholarshipPercent": 40
+      }
+    },
+    "relationships": {
+      "studentStub": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

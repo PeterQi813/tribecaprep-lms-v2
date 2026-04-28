@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784872275
+    },
+    "type": "card",
+    "attributes": {
+      "score": null,
+      "domain": "General",
+      "content": "He did a simple job in social studies ",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "The observation mentions 'social studies,' which aligns with the 'Science / Social Studies' block.",
+      "timestamp": "2026-04-10T21:15:49.472Z",
+      "confidence": 90,
+      "highlighted": null,
+      "activityDate": null,
+      "matchedBlock": "Science / Social Studies",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/dfd269d7-b133-4257-91e6-9736d7f77712"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

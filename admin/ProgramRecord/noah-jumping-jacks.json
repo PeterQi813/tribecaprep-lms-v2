@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Noah Brooks",
+      "studentId": "TPS-2026-0501",
+      "program": "Jumping Jacks",
+      "domain": "Gross Motor",
+      "domainKey": "motor",
+      "abllsCode": "G2",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-06",
+      "dueDate": "2026-05-20",
+      "currentTarget": "Complete 5 coordinated jumping jacks with model fade",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 70,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "GoNoodle video",
+          "detail": "Morning movement"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747516128
+    }
+  }
+}

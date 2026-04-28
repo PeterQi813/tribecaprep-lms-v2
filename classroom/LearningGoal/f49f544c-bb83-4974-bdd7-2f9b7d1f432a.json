@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785509929
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-04-17",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Requesting with Full Sentences",
+      "description": "",
+      "startedDate": "2026-04-14",
+      "studentName": "Morgan Shaw",
+      "targetMastery": 100,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R F5"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/399ae9f3-2db4-4ab0-ade8-bfbd974f7626"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

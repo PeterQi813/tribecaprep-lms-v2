@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785483544
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Gross Motor",
+      "dueDate": "2026-05-10",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Ball Skills — Catch & Throw",
+      "description": "",
+      "startedDate": "2026-03-20",
+      "studentName": "Alex Park",
+      "targetMastery": 70,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R G4"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fdcd2ab0-0178-4e21-b99a-e9f32db49ab0"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

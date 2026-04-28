@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785467392
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Math",
+      "dueDate": "2026-06-14",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Sorting Non-Identical Objects",
+      "description": "",
+      "startedDate": "2026-04-13",
+      "studentName": "Emma Chen",
+      "targetMastery": 80,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B12"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/2ab00178-fe21-499a-a9f3-2db49ab0ede8"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784821156
+    },
+    "type": "card",
+    "attributes": {
+      "score": null,
+      "domain": "General",
+      "content": "he took a break and have snack",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "General",
+      "reasoning": "The observation directly mentions taking a break and having a snack, which aligns with the sensory break/snack block.",
+      "timestamp": "2026-04-10T21:07:37.094Z",
+      "confidence": 100,
+      "matchedBlock": "sensory break (short movement or calming activity) / snack",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/6a90dfd2-69d7-4133-b257-51e69736d7f7"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

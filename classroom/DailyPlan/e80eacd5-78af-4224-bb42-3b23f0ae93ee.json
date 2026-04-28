@@ -1,0 +1,115 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "DailyPlan",
+        "module": "../daily-plan"
+      },
+      "_touched": 1776785042340
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "Today's plan introduces long division and continues practice on sorting, receptive language, and requesting with full sentences. The afternoon includes art and social skills practice.\n[Progression] This plan builds on yesterday's activities by introducing a new math concept (long division) and slightly varying the objects used for sorting. It maintains the structure of the previous day's schedule.",
+      "status": "draft",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "planDate": "2026-04-14",
+      "aiModelUsed": "google/gemini-2.0-flash-001",
+      "generatedAt": "2026-04-14T17:13:33.038Z",
+      "generatedBy": "ai",
+      "scheduleItems": [
+        {
+          "time": "8:45",
+          "activity": "Homeroom (morning arrival and settling)",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "9:00",
+          "activity": "DI Math: Introduction to Long Division with 3-digit numbers. Use manipulatives to represent the process. Use ABLLS-R C4 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "LONG DIVISION"
+        },
+        {
+          "time": "9:45",
+          "activity": "Sorting: Sort non-identical objects into 3 categories (e.g., fruits, vegetables, furniture) for 10 minutes. Use ABLLS-R B12 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Sorting Non-Identical Objects"
+        },
+        {
+          "time": "10:30",
+          "activity": "sensory break (short movement or calming activity)",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "10:45",
+          "activity": "Receptive Language: Present 5 common objects (e.g., cup, shoe, ball, book, spoon) and ask Jamie to identify each by pointing. Use ABLLS-R C8 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Receptive ID of Common Objects"
+        },
+        {
+          "time": "11:30",
+          "activity": "Lunch + Recess",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "12:15",
+          "activity": "Science/Social Studies: Group circle time, introduce topic of 'animals' with picture cards.",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:00",
+          "activity": "Specials: Art class with Ms. Johnson",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:45",
+          "activity": "Social Skills: Requesting with Full Sentences during free choice. Prompt Jamie to use 'I want ____' when requesting toys or activities.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Requesting with Full Sentences"
+        },
+        {
+          "time": "2:30",
+          "activity": "Closing / reflection",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        }
+      ]
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

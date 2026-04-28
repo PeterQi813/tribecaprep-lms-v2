@@ -1,0 +1,54 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "timestamp": "2026-04-14T17:23:00.581Z",
+      "content": "jamie present all 5 common objects right!",
+      "entryType": "Academic",
+      "score": "5/5",
+      "aiTagged": null,
+      "flagNote": null,
+      "domain": "Receptive Language",
+      "suggestedGoal": "Receptive ID of Common Objects",
+      "activityDate": "2026-04-14",
+      "studentName": "Unknown",
+      "authorName": "",
+      "sourceEntryId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-classroom/ActivityEntry/4691a61e-f9ff-41ef-8155-763ba5969fd2",
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": null
+        }
+      },
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../activity-entry",
+        "name": "ActivityEntry"
+      },
+      "_touched": 1776726361499
+    }
+  }
+}

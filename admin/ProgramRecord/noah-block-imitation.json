@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Noah Brooks",
+      "studentId": "TPS-2026-0501",
+      "program": "Block Imitation",
+      "domain": "Visual Performance",
+      "domainKey": "visual",
+      "abllsCode": "B12",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-02",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Imitate 3-block structure from model in 5 sec, 9/10 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Wooden unit blocks",
+          "detail": "Matching sets"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747513640
+    }
+  }
+}

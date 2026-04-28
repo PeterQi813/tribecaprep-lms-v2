@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Morgan Shaw",
+      "studentId": "TPS-2026-0633",
+      "program": "Puzzle Completion — 24 Piece",
+      "domain": "Visual Performance",
+      "domainKey": "visual",
+      "abllsCode": "B10",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-28",
+      "dueDate": "2026-05-10",
+      "currentTarget": "Complete 24-piece interlocking puzzle independently within 10 min",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Melissa & Doug 24-piece set",
+          "detail": "Farm/ocean themes"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747509734
+    }
+  }
+}

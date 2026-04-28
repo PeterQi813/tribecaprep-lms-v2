@@ -1,0 +1,101 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "DailyPlan",
+        "module": "../daily-plan"
+      },
+      "_touched": 1776785035476
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "This is Jamie's first plan, focusing on initial assessment of sorting and receptive language skills. The afternoon includes social and creative activities.\n[Progression] This is the first plan, so it establishes a baseline structure. Future plans will build on the results of these initial activities.",
+      "status": "draft",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "planDate": "2026-04-13",
+      "aiModelUsed": "google/gemini-2.0-flash-001",
+      "generatedAt": "2026-04-14T00:01:01.251Z",
+      "generatedBy": "ai",
+      "scheduleItems": [
+        {
+          "time": "8:45",
+          "activity": "Homeroom (morning arrival and settling)",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "9:00",
+          "activity": "Math: Sort non-identical objects into 3 categories (e.g., toys, utensils, clothing) for 10 minutes. Use ABLLS-R B12 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Sorting Non-Identical Objects"
+        },
+        {
+          "time": "9:45",
+          "activity": "sensory break (short movement or calming activity)",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "10:30",
+          "activity": "Receptive Language: Present 5 common objects (e.g., cup, shoe, ball, book, spoon) and ask Jamie to identify each by pointing. Use ABLLS-R C8 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Receptive ID of Common Objects"
+        },
+        {
+          "time": "11:30",
+          "activity": "Lunch + Recess",
+          "status": "Done",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "12:15",
+          "activity": "Science/Social Studies: Group circle time, introduce topic of 'plants' with picture cards.",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "1:00",
+          "activity": "Specials: Music class with Ms. Smith",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        },
+        {
+          "time": "2:30",
+          "activity": "Closing / reflection",
+          "status": "Done",
+          "result": "1/1",
+          "goalTag": ""
+        }
+      ]
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

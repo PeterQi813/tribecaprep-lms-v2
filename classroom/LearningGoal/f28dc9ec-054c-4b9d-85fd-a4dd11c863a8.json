@@ -1,0 +1,43 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Receptive ID of Common Objects",
+      "description": "",
+      "domain": "Receptive Language",
+      "priority": "High",
+      "currentMastery": 0,
+      "targetMastery": 80,
+      "studentName": "Noah Brooks",
+      "startedDate": "2026-04-13",
+      "standardAlignment": "ABLLS-R C8",
+      "dueDate": "2026-05-13",
+      "evidenceEntries": [],
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/e9f32db4-9ab0-4de8-bfbd-974f7626deba"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../learning-goal",
+        "name": "LearningGoal"
+      },
+      "_touched": 1776785508122
+    }
+  }
+}

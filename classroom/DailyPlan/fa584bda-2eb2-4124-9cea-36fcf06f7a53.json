@@ -1,0 +1,115 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "DailyPlan",
+        "module": "../daily-plan"
+      },
+      "_touched": 1776785046950
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "Today's plan focuses on introducing 2-step directions and matching 3D to 2D objects, while continuing practice on long division. The afternoon includes PE and fine motor skills.\n[Progression] This plan introduces two new goals (Following 2-Step Directions and Matching 3D to 2D) and progresses Long Division based on yesterday's performance. It maintains the structure of previous days with academic blocks in the morning and specials in the afternoon.",
+      "status": "draft",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "planDate": "2026-04-15",
+      "aiModelUsed": "google/gemini-2.0-flash-001",
+      "generatedAt": "2026-04-15T19:30:00.727Z",
+      "generatedBy": "ai",
+      "scheduleItems": [
+        {
+          "time": "8:45",
+          "activity": "Homeroom (morning arrival and settling)",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "9:00",
+          "activity": "Following 2-Step Directions: Give Jamie two related directions (e.g., 'get your book, then sit down').",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Following 2-Step Directions"
+        },
+        {
+          "time": "9:45",
+          "activity": "Matching 3D to 2D: Jamie Chen will match 3D objects to 2D pictures across 15 items. Use ABLLS-R B5 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Matching 3D to 2D"
+        },
+        {
+          "time": "10:30",
+          "activity": "sensory break (short movement or calming activity)",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "10:45",
+          "activity": "DI Math: Continue Long Division practice with 3-digit numbers. Use manipulatives to represent the process. Use ABLLS-R C4 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "LONG DIVISION"
+        },
+        {
+          "time": "11:30",
+          "activity": "Lunch + Recess",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "12:15",
+          "activity": "Science/Social Studies: Group circle time, introduce topic of 'community helpers' with picture cards.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:00",
+          "activity": "Specials: PE class with Mr. Jones",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        },
+        {
+          "time": "1:45",
+          "activity": "Cutting on Lines: Jamie Chen will cut straight lines within 1/4 inch deviation, 5 trials with consistent accuracy across teaching sessions. Use ABLLS-R FM6 materials.",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": "Cutting on Lines"
+        },
+        {
+          "time": "2:30",
+          "activity": "Closing / reflection",
+          "status": "Upcoming",
+          "result": "",
+          "goalTag": ""
+        }
+      ]
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

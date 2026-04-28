@@ -1,0 +1,12 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {},
+    "meta": {
+      "adoptsFrom": {
+        "module": "../test-sync-snapshot-to-parent",
+        "name": "TestSyncSnapshotToParent"
+      }
+    }
+  }
+}

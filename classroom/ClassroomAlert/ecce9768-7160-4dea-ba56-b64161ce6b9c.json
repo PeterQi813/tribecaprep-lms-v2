@@ -1,0 +1,45 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ClassroomAlert",
+        "module": "../classroom-alert"
+      },
+      "_touched": 1776784988299
+    },
+    "type": "card",
+    "attributes": {
+      "title": "fuck",
+      "startAt": "2026-04-13T03:30:42.084Z",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "postedBy": "Teacher",
+      "severity": "urgent",
+      "verified": true,
+      "alertType": "pickup-change",
+      "expiresAt": "2026-04-13T03:59:59.999Z",
+      "description": "fuck"
+    },
+    "relationships": {
+      "classroom": {
+        "links": {
+          "self": "../Classroom/classroom-2a"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      },
+      "affectedStudents.0": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      }
+    }
+  }
+}

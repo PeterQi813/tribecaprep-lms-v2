@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Jamie Chen",
+      "studentId": "TPS-2026-0847",
+      "program": "Following 2-Step Directions",
+      "domain": "Language",
+      "domainKey": "language",
+      "abllsCode": "C15",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-28",
+      "dueDate": "2026-05-10",
+      "currentTarget": "Follow 2-step related directions (e.g. get book, sit down) 8/10 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 80,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Direction card set",
+          "detail": "30 2-step commands"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Visual sequence strip",
+          "detail": "First-then"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747493997
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785477235
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-04-17",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Requesting with Full Sentences",
+      "description": "",
+      "startedDate": "2026-04-14",
+      "studentName": "Alex Park",
+      "targetMastery": 100,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R F5"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fdcd2ab0-0178-4e21-b99a-e9f32db49ab0"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

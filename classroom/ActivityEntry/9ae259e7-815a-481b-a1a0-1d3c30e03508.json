@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784855511
+    },
+    "type": "card",
+    "attributes": {
+      "score": "19/20",
+      "domain": "Math",
+      "content": "he finished count with 1:1 correspondence and get score 20/20",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "The observation mentions 'count with 1:1 correspondence' and a score, indicating an academic activity related to math, specifically counting.",
+      "timestamp": "2026-04-21T07:22:48.920Z",
+      "confidence": 100,
+      "highlighted": null,
+      "activityDate": "2026-04-21",
+      "matchedBlock": "DI Math: Count to 6 with objects using DI Connecting Math Concepts",
+      "suggestedGoal": "Count with 1:1 Correspondence"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

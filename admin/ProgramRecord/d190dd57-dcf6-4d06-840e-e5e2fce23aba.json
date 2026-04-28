@@ -1,0 +1,43 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Morgan Shaw",
+      "studentId": "TPS-2026-0633",
+      "program": "Requesting with Full Sentences",
+      "domain": "Social",
+      "domainKey": "social",
+      "abllsCode": "F5",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-14",
+      "currentTarget": "Use \"I want ___\" to request items during snack and free choice",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": null,
+      "dueDate": "2026-04-17",
+      "targetMastery": 100,
+      "materials": [],
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747477567
+    }
+  }
+}

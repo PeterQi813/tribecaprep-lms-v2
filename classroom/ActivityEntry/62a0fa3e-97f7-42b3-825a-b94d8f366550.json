@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784840247
+    },
+    "type": "card",
+    "attributes": {
+      "score": null,
+      "domain": "Social",
+      "content": "Jamie ate her turkey sandwich and apple slices independently. She asked \"Can I have more water please?\" using a full sentence without prompting. At recess, played on the slide with Alex and took turns nicely.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Social",
+      "reasoning": "Observation describes Jamie's lunch and recess behavior, including communication and social interaction.",
+      "timestamp": "2026-04-14T02:58:21.248Z",
+      "confidence": 95,
+      "highlighted": null,
+      "activityDate": "2026-04-13",
+      "matchedBlock": "Lunch + Recess",
+      "suggestedGoal": ""
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

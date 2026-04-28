@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784877361
+    },
+    "type": "card",
+    "attributes": {
+      "score": "4/5",
+      "domain": "Math",
+      "content": "Jamie touched each block one at a time while counting out loud to 5. She got 4/5 sets correct — missed one block in the last set.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Academic",
+      "reasoning": "Jamie was counting blocks, which aligns with the DI Math block and the goal of counting with 1:1 correspondence.",
+      "timestamp": "2026-04-13T02:02:58.516Z",
+      "confidence": 95,
+      "highlighted": null,
+      "activityDate": "2026-04-12",
+      "matchedBlock": "DI Math: Count to 5 with objects using DI Connecting Math Concepts",
+      "suggestedGoal": "Count with 1:1 Correspondence"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/69d7b133-3257-41e6-9736-d7f77712defa"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

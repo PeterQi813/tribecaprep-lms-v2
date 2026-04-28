@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Jamie Chen",
+      "studentId": "TPS-2026-0847",
+      "program": "Cutting on Lines",
+      "domain": "Fine Motor",
+      "domainKey": "motor",
+      "abllsCode": "FM6",
+      "masterSheet": "Yes",
+      "programSheet": "No",
+      "started": "2026-04-08",
+      "dueDate": "2026-06-01",
+      "currentTarget": "Cut straight lines within 1/4 inch deviation, 5 trials",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 70,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Child safety scissors",
+          "detail": "Right-handed"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Line-tracing worksheets",
+          "detail": "Progressive difficulty"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747492812
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Morgan Shaw",
+      "studentId": "TPS-2026-0633",
+      "program": "Motor Imitation",
+      "domain": "Vocal",
+      "domainKey": "imitation",
+      "abllsCode": "A3",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-03-20",
+      "dueDate": "2026-05-05",
+      "currentTarget": "Imitate 20 gross motor actions on model, 85% accuracy",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Motor imitation action list",
+          "detail": "25-action pool"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747508473
+    }
+  }
+}

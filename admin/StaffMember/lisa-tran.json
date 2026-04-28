@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Lisa Tran",
+      "role": "Speech",
+      "initials": "LT",
+      "avatarColor": "amber",
+      "studentCount": 6,
+      "weeklyObservations": 18,
+      "status": "Active",
+      "email": "l.tran@tribecaprep.org"
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../staff-member",
+        "name": "StaffMember"
+      },
+      "_touched": 1776747580773
+    }
+  }
+}

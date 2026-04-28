@@ -1,0 +1,55 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ActivityEntry",
+        "module": "../activity-entry"
+      },
+      "_touched": 1776784808612
+    },
+    "type": "card",
+    "attributes": {
+      "score": "1/5",
+      "domain": "Communication",
+      "content": "He is not very good at communicating with others. He only communicates with 1/5 of children.",
+      "aiTagged": "true",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "flagNote": null,
+      "entryType": "Social",
+      "reasoning": "The observation focuses on Jamie's communication skills with peers, indicating a social communication issue.",
+      "timestamp": "2026-04-10T20:57:21.260Z",
+      "confidence": 90,
+      "highlighted": null,
+      "activityDate": null,
+      "matchedBlock": "",
+      "suggestedGoal": "Develop age-appropriate social communication skills"
+    },
+    "relationships": {
+      "author": {
+        "links": {
+          "self": "../Staff/33778d98-6a90-4fd2-a9d7-b133325751e6"
+        }
+      },
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "goalLink": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

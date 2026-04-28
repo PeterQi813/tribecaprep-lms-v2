@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Morgan Shaw",
+      "studentId": "TPS-2026-0633",
+      "program": "Zipping Coat",
+      "domain": "Self-Help",
+      "domainKey": "self-help",
+      "abllsCode": "S7",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-01",
+      "dueDate": "2026-05-20",
+      "currentTarget": "Zip own coat from starting position with minimal prompts, 4/5 attempts",
+      "active": "Yes",
+      "notes": "Parent reports success at home — generalize to school",
+      "scheduledWeek": "",
+      "targetMastery": 90,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Practice zipper board",
+          "detail": "Detached teaching tool"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747512153
+    }
+  }
+}

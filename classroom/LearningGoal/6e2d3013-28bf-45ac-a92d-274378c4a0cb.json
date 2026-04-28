@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785441019
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-06-10",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Initiating Conversation with Peer",
+      "description": "Pair with Riley during snack — rapport established",
+      "startedDate": "2026-04-01",
+      "studentName": "Emma Chen",
+      "targetMastery": 75,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R C12"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/2ab00178-fe21-499a-a9f3-2db49ab0ede8"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

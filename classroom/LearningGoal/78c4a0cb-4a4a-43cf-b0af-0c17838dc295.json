@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785447608
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Social",
+      "dueDate": "2026-04-17",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Requesting with Full Sentences",
+      "description": "",
+      "startedDate": "2026-04-14",
+      "studentName": "Sofia Martinez",
+      "targetMastery": 100,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R F5"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/9ab0ede8-bfbd-474f-b626-debac4fed13d"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

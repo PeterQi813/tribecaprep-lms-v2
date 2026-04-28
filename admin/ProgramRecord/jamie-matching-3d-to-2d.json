@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Jamie Chen",
+      "studentId": "TPS-2026-0847",
+      "program": "Matching 3D to 2D",
+      "domain": "Visual Performance",
+      "domainKey": "visual",
+      "abllsCode": "B5",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-02",
+      "dueDate": "2026-05-15",
+      "currentTarget": "Match 3D objects to 2D pictures across 15 items with 85% accuracy",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "3D object bin A",
+          "detail": "Common household"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "2D picture cards",
+          "detail": "Matched pairs"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747496537
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785451196
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Behavioral",
+      "dueDate": "2026-05-20",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Waiting Skills",
+      "description": "",
+      "startedDate": "2026-04-01",
+      "studentName": "Alex Park",
+      "targetMastery": 80,
+      "currentMastery": 0,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R B-W1"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/fdcd2ab0-0178-4e21-b99a-e9f32db49ab0"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

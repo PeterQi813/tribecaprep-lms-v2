@@ -1,0 +1,32 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Lisa Tran",
+      "role": "Speech",
+      "initials": "LT",
+      "color": "amber",
+      "avatar": null,
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../staff",
+        "name": "Staff"
+      },
+      "_touched": 1776726936889
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "LearningGoal",
+        "module": "../learning-goal"
+      },
+      "_touched": 1776785498419
+    },
+    "type": "card",
+    "attributes": {
+      "domain": "Language",
+      "dueDate": "2026-05-10",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "priority": "High",
+      "goalTitle": "Following 2-Step Directions",
+      "description": "",
+      "startedDate": "2026-03-28",
+      "studentName": "Jamie Chen",
+      "targetMastery": 80,
+      "currentMastery": 80,
+      "evidenceEntries": [],
+      "standardAlignment": "ABLLS-R C15"
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": "../Student/0178fe21-399a-49f3-adb4-9ab0ede8bfbd"
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

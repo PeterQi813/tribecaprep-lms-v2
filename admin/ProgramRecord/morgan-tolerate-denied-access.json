@@ -1,0 +1,41 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Morgan Shaw",
+      "studentId": "TPS-2026-0633",
+      "program": "Tolerate Denied Access",
+      "domain": "Behavioral",
+      "domainKey": "behavioral",
+      "abllsCode": "B-TDA",
+      "masterSheet": "Yes",
+      "programSheet": "Yes",
+      "started": "2026-04-10",
+      "dueDate": "2026-06-10",
+      "currentTarget": "Accept \"no\" to preferred item without behaviors, 4/5 trials daily",
+      "active": "Yes",
+      "notes": "BCBA consult scheduled 4/29 for BIP review",
+      "scheduledWeek": "",
+      "targetMastery": 75,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "First-then board",
+          "detail": "Velcro icons"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "Data sheet — FCT",
+          "detail": "Daily tally"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747510990
+    }
+  }
+}

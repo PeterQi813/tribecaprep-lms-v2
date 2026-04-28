@@ -1,0 +1,54 @@
+{
+  "data": {
+    "meta": {
+      "adoptsFrom": {
+        "name": "ProgramRecord",
+        "module": "../program-record"
+      },
+      "_touched": 1776747471415
+    },
+    "type": "card",
+    "attributes": {
+      "notes": "",
+      "active": "Yes",
+      "domain": "Math",
+      "dueDate": "2026-06-15",
+      "program": "Count with 1:1 Correspondence",
+      "started": "2026-04-12",
+      "cardInfo": {
+        "name": null,
+        "notes": null,
+        "summary": null,
+        "cardThumbnailURL": null
+      },
+      "abllsCode": "R3",
+      "domainKey": "math",
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "DI Connecting Math Concepts",
+          "detail": "Lessons 42-60"
+        },
+        {
+          "materialType": "Secondary",
+          "name": "TouchMath manipulatives",
+          "detail": ""
+        }
+      ],
+      "studentId": "TPS-2026-0847",
+      "masterSheet": "Yes",
+      "studentName": "Jamie Chen",
+      "programSheet": "Yes",
+      "currentTarget": "16, 17 objects",
+      "scheduledWeek": null,
+      "targetMastery": 80
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    }
+  }
+}

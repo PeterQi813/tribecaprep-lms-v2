@@ -1,0 +1,36 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentName": "Riley Kim",
+      "studentId": "TPS-2026-0755",
+      "program": "Using Utensils — Spoon",
+      "domain": "Self-Help",
+      "domainKey": "self-help",
+      "abllsCode": "S4",
+      "masterSheet": "No",
+      "programSheet": "Yes",
+      "started": "2026-03-15",
+      "dueDate": "2026-05-25",
+      "currentTarget": "Scoop and eat semi-solids (yogurt, oatmeal) independently 5/5 meals",
+      "active": "Yes",
+      "notes": "",
+      "scheduledWeek": "",
+      "targetMastery": 85,
+      "materials": [
+        {
+          "materialType": "Primary",
+          "name": "Weighted spoon",
+          "detail": "OT recommended"
+        }
+      ]
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../program-record",
+        "name": "ProgramRecord"
+      },
+      "_touched": 1776747538927
+    }
+  }
+}

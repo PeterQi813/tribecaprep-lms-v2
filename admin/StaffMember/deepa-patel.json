@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "name": "Deepa Patel",
+      "role": "Lead Teacher",
+      "initials": "DP",
+      "avatarColor": "teal",
+      "studentCount": 12,
+      "weeklyObservations": 48,
+      "status": "Active",
+      "email": "d.patel@tribecaprep.org"
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../staff-member",
+        "name": "StaffMember"
+      },
+      "_touched": 1776747574428
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "studentSlug": "0178fe21-399a-49f3-adb4-9ab0ede8bfbd",
+      "studentName": "Jamie Chen",
+      "snapshotDate": "2026-04-12",
+      "sourceSnapshotId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-parent/ImportSnapshot/7eab3a43-c18f-4905-b7aa-774f549819d6",
+      "sourceSkillCardId": "https://app.boxel.ai/itp_project/tribecaprep-lms-v2-parent/SkillCard/daily-communication-generator",
+      "generatedAt": "2026-04-13T02:59:25.126Z",
+      "generatedBy": "google/gemini-2.0-flash-001",
+      "daySummary": "I had a super day at school, and I learned lots of new things!",
+      "todayIAte": "Not recorded today",
+      "myDayWas": "Great",
+      "whatIWorkedOn": [
+        {
+          "subject": "Math",
+          "description": "During Direct Instruction math, I practiced counting to 5 using hands-on counting tools. I touched each block carefully one at a time.",
+          "score": "4/5"
+        },
+        {
+          "subject": "Language",
+          "description": "In my Language for Learning lesson, I pointed to pictures when someone asked me to show them things.",
+          "score": "8/10"
+        },
+        {
+          "subject": "Social Skills",
+          "description": "During lunch, I ate all my food on my own and asked for a napkin using my words.",
+          "score": "✓"
+        },
+        {
+          "subject": "Social Skills",
+          "description": "I played a greeting game with my friends. I waved and said hi to lots of classmates!",
+          "score": "✓"
+        },
+        {
+          "subject": "General",
+          "description": "I packed my bag all by myself and got ready to go home.",
+          "score": "✓"
+        }
+      ],
+      "todaysHighlight": "I built a really tall tower with blocks during free choice! I showed it to Emmy and said, 'Look, tall!'",
+      "teacherNotes": "Jamie had a wonderful day! She is making great progress toward her learning goals. She got 4 out of 5 on her counting activity and 8 out of 10 on her language identification. It's wonderful to see her using her words to interact with her friends and following classroom routines so well.",
+      "status": "draft",
+      "headTeacherName": "V. Petrov",
+      "headTeacherRole": "Head Teacher",
+      "homeNotes": "",
+      "sentAt": null,
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../daily-communication",
+        "name": "DailyCommunication"
+      }
+    }
+  }
+}

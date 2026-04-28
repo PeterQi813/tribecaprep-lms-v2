@@ -1,0 +1,43 @@
+{
+  "data": {
+    "type": "card",
+    "attributes": {
+      "goalTitle": "Sight Words",
+      "description": "Need master list",
+      "domain": null,
+      "priority": null,
+      "currentMastery": null,
+      "targetMastery": 90,
+      "studentName": "Jamie Chen",
+      "startedDate": "2026-04-13",
+      "standardAlignment": null,
+      "dueDate": null,
+      "evidenceEntries": [],
+      "cardInfo": {
+        "name": null,
+        "summary": null,
+        "cardThumbnailURL": null,
+        "notes": null
+      }
+    },
+    "relationships": {
+      "student": {
+        "links": {
+          "self": null
+        }
+      },
+      "cardInfo.theme": {
+        "links": {
+          "self": null
+        }
+      }
+    },
+    "meta": {
+      "adoptsFrom": {
+        "module": "../learning-goal",
+        "name": "LearningGoal"
+      },
+      "_touched": 1776785459487
+    }
+  }
+}
